@@ -15,19 +15,21 @@ function App() {
     <div className="App">
      <header className="navbar navbar-transparent navbar-color-on-scroll fixed-top navbar-expand-lg" color-on-scroll="50">
   <div className="container">
-    <p className="btn btn-rose btn-round"  role="button" target="_blank">
-      <strong>...</strong>
+    <a className="btn btn-rose btn-round" href="https://www.visitscotland.com/" role="button" target="_blank" rel="noopener noreferrer">
+      <strong>Pick Your Flight</strong> 
       <i className="material-icons">flight</i>
-    </p>
+    </a>
   </div>
 </header>
-<section className="page-header text-center position-relative banner-section" style={{backgroundColor:"#FFFFFF"}}>
+
+<section className="page-header text-center position-relative banner-section" style={{backgroundImage:" url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/scotland-unsplash.jpg)", height:"622px", width:"100%"}}>
   <div className="container">
-    <h1 className="title">...</h1>
-    <h3>...</h3>
+    <h1 className="title">Welcome to Scotland</h1>
+    <h3 className="">One of the most beautiful countries in the world...</h3>
   </div>
 </section>
-   
+
+
     </div>
   );
 }
