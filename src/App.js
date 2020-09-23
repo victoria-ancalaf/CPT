@@ -3,8 +3,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import $ from 'jquery';
 import Popper from 'popper.js';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
-import AOS  from 'aos'; 
-import 'aos/dist/aos.css'  // También puede utilizar <link> para estilos 
+//import AOS  from 'aos'; 
+//import 'aos/dist/aos.css'  // También puede utilizar <link> para estilos 
 
 
 
