@@ -5,6 +5,7 @@ import Popper from 'popper.js';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 //import AOS  from 'aos'; 
 //import 'aos/dist/aos.css'  // También puede utilizar <link> para estilos 
+import Footer from './Components/Footer';
 
 
 
@@ -29,8 +30,10 @@ function App() {
   </div>
 </section>
 
-
+  <Footer/>
     </div>
+
+
   );
 }
 
