@@ -3,11 +3,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import $ from 'jquery';
 import Popper from 'popper.js';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
-import AOS  from 'aos'; 
-import 'aos/dist/aos.css'  // También puede utilizar <link> para estilos 
-
-
-
+//import AOS  from 'aos'; 
+//import 'aos/dist/aos.css';  // También puede utilizar <link> para estilos 
+import Carrusel from '../src/Components/Carrusel'
+import Voluntariado from './Components/Voluntariado';
+import Operaciones from './Components/Operaciones';
+import Graficos from './Components/Graficos';
 
 
 function App() {
@@ -22,15 +23,25 @@ function App() {
   </div>
 </header>
 
-<section className="page-header text-center position-relative banner-section" style={{backgroundImage:" url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/scotland-unsplash.jpg)", height:"622px", width:"100%"}}>
-  <div className="container">
-    <h1 className="title">Welcome to Scotland</h1>
-    <h3 className="">One of the most beautiful countries in the world...</h3>
-  </div>
-</section>
+{/*componentes del Routing*/}
+<Carrusel/>
+<Voluntariado/>
+<Operaciones/>
+<Graficos/>
+
+
+
+
+
+
 
 
     </div>
+
+
+
+
+
   );
 }
 
