@@ -5,7 +5,9 @@ import Carrusel from '../Components/Carrusel'
 import Graficos from '../Components/Graficos'
 import Operaciones from '../Components/Operaciones'
 import Voluntariado from '../Components/Voluntariado'
+import Numbers from '../Components/Numbers'
 import Colaboradores from '../Components/Colaboradores'
+
 
 const Main = () => {
     return (
@@ -13,6 +15,7 @@ const Main = () => {
             <Navbar />
             <Carrusel />
             <Voluntariado />
+            <Numbers />
             <Operaciones />
             <Graficos />
             <Colaboradores />
