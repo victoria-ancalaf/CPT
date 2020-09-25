@@ -5,6 +5,7 @@ import Carrusel from '../Components/Carrusel'
 import Graficos from '../Components/Graficos'
 import Operaciones from '../Components/Operaciones'
 import Voluntariado from '../Components/Voluntariado'
+import Colaboradores from '../Components/Colaboradores'
 
 const Main = () => {
     return (
@@ -14,6 +15,7 @@ const Main = () => {
             <Voluntariado />
             <Operaciones />
             <Graficos />
+            <Colaboradores />
             <Footer />
         </div>
     )
