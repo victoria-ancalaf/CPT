@@ -1,16 +1,29 @@
-import React from 'react';
+import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../Styles/Navbar.css'
 import LogoCPT from '../img/comida-para-todos-logo.png';
 
 
+
 const Navbar = () => {
+
+    const [navbar, setNavbar] = useState(false);
+   
+    const changeBackground = () => {
+        if(window.scrollY >= 80) {
+            setNavbar(true)
+        } else {
+            setNavbar(false);
+        }
+    }
+
+    window.addEventListener('scroll', changeBackground);
+
     return (
         <div>
             <header
-                className="navbar navbar-transparent navbar-color-on-scroll fixed-top navbar-expand-lg"
-                color-on-scroll="50">
-                <div className="container">
+                className={navbar ? 'navbar active' : 'navbar'}>
+                <div className="containerNavbar">
                    <img src={LogoCPT} alt="Comida para todos" /> 
                     <ul className="nav-links">
                         <li>Categoría1</li>
