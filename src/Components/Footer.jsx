@@ -5,9 +5,9 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div className="main-footer">
+        <div className="container px-lg-2  pt-2 mt-2 pb-2 mb-2">
             <div className="footer-meddle">
-                <div className="main-container">
+                <div className="main-container px-lg-5 pt-5 mt-5 pb-5 mb-5">
                     <div className="row">
                         {/*colum 1*/}
                         <div className="col-md-3 col-sm-6">
@@ -51,8 +51,8 @@ const Footer = () => {
                         </div>
                     </div>
                     {/*Footer Bottom*/}
-                    <div className="footer-bottom">
-                        <p className="text-xs-center">
+                    <div className="footer-copyright text-center py-3">
+                        <p className="text-xs-center py-3">
                             &copy;{new Date().getFullYear()} Comida para todos -
                         Todos los derechos reservados
 
