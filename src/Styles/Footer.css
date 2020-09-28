@@ -1,0 +1,15 @@
+.containerFooter {
+    background: #4F4F4F;
+}
+
+h4 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: #F2F2F2;
+}
+
+li,p{
+    color: #F2F2F2;
+}
