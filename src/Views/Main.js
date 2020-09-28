@@ -7,6 +7,7 @@ import Operaciones from '../Components/Operaciones'
 import Voluntariado from '../Components/Voluntariado'
 import Numbers from '../Components/Numbers'
 import Colaboradores from '../Components/Colaboradores'
+import Commitment from '../Components/Commitment'
 
 
 const Main = () => {
@@ -16,6 +17,7 @@ const Main = () => {
             <Carrusel />
             <Voluntariado />
             <Numbers />
+            <Commitment />
             <Operaciones />
             <Graficos />
             <Colaboradores />

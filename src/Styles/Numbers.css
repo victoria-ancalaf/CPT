@@ -12,7 +12,7 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 40px;
-    color: #F2F2F2;
+    color: #4F4F4F;
     margin-left: 75px;
 }
 
@@ -31,20 +31,8 @@
 }
 
 .icon-text > img {
-    width: 128px;
-    height: 128px;
+    width: 268px;
+    height: 268px;
 }
 
-.numb {
-    font-family: 'Roboto', sans-serif;
-    font-size: 48px;
-    font-weight: bold;
-    text-align: center;
-}
 
-.text {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 24px;
-    text-align: center;
-}
