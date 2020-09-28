@@ -1,0 +1,38 @@
+.containerCommitment {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 118px;
+    width: 100%;
+    height: 728px;
+    background-image: url("../img/ComedorComunitariojpg_02.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    --background-color: rgba(0, 0, 0, 0.4);
+    --opacity: 40%;
+}
+
+.p-1-style {
+    font-family: "Roboto", sans-serif;
+    color: #F2F2F2;
+    font-size: 48px;
+}
+
+.p-2-style {
+    font-family: "Roboto", sans-serif;
+    color: #F2F2F2;
+    font-size: 20px;
+}
+
+.btn-commit {
+    width: 181px;
+    height: 58px;
+    background: linear-gradient(180deg, #FEC163 0%, #FB784F 100%);
+    border-radius: 10px;
+    color: #F2F2F2;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    border: none;
+}
