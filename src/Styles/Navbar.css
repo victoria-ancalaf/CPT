@@ -40,12 +40,12 @@
     color: #F2F2F2;
 }
 
-li {
+.navLinks li {
     cursor: pointer;
     display: inline-block;
-}
+} 
 
-.list-navbar::after {
+.navLinks .list-navbar::after {
     content: '';
     display: block;
     width: 0;
@@ -54,12 +54,27 @@ li {
     transition: width .3s;
 }
 
-.list-navbar:hover::after {
+.navLinks .list-navbar:hover::after {
     width: 100%;
     transition: width .3s;
 }
 
-.navLinks.active {
+.navLinks.active .list-navbar {
     color: black;
+    
+} 
+
+.navLinks.active .list-navbar::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: black;
+    transition: width .3s;
+    
 }
 
+.navLinks.active .list-navbar:hover::after {
+    width: 100%;
+    transition: width .3s;
+}

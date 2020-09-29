@@ -6,11 +6,9 @@
     padding-left: 118px;
     width: 100%;
     height: 728px;
-    background-image: url("../img/ComedorComunitariojpg_02.jpg");
+    background-image: url("../img/Comedor Comunitariojpg_02_FiltroNegro.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    --background-color: rgba(0, 0, 0, 0.4);
-    --opacity: 40%;
 }
 
 .p-1-style {
@@ -35,4 +33,8 @@
     font-size: 24px;
     font-weight: 500;
     border: none;
+}
+
+.btn-commit:hover {
+    background: linear-gradient(180deg, #F8A11B 0%, #EC4714 100%);
 }
