@@ -153,9 +153,9 @@ sup {
 }
 
 a {
-  color: #007bff;
   text-decoration: none;
   background-color: transparent;
+  color: inherit;
 }
 
 a:hover {
