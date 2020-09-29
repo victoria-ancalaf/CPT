@@ -78,3 +78,8 @@
     width: 100%;
     transition: width .3s;
 }
+
+a,a:hover {
+    color: inherit;
+    
+}
