@@ -1,13 +1,13 @@
 import React from 'react'
-import Donacion_Landing from '../img/Donacion_Landing.svg';
-import Voluntario_Landing from '../img/Voluntario_Landing.svg';
-import { Button, ButtonGroup, Figure } from 'react-bootstrap';
+// import Donacion_Landing from '../img/Donacion_Landing.svg';
+// import Voluntario_Landing from '../img/Voluntario_Landing.svg';
+// import { Button, ButtonGroup, Figure } from 'react-bootstrap';
 
 
 const Voluntariado = () => {
   return (
     <div>
-      <div className="container px-lg-5">
+      {/* <div className="container px-lg-5">
         <div className="row mx-lg-n5">
           <div className="col-12 col-md-6 py-3 px-lg-5 pt-5 mt-5 pb-5 mb-5 border bg-light align-self-center text-center">
             <Figure>
@@ -45,7 +45,7 @@ const Voluntariado = () => {
             </ButtonGroup>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }
