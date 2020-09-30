@@ -16,7 +16,7 @@ const Huertos = () => {
 					<p className="cap-letter">Huertos Urbanos</p>
 					<p className="cap-letter-small">Dona un metro cuadrado para fomentar el cultivo.</p>
 				</div>
-				<button onClick={() => setHuertosShow(true)}><span>+</span></button>
+				<button onClick={() => setHuertosShow(true)}>Modal</button>
 
 				<Modal
 					size="lg"
@@ -24,7 +24,7 @@ const Huertos = () => {
 					onHide={() => setHuertosShow(false)}
 				>
 					<Modal.Header closeButton>
-						<Modal.Title>Capacitaciones</Modal.Title>
+						<Modal.Title>Huertos Urbanos</Modal.Title>
 					</Modal.Header>
 					<Modal.Body>Este es el modal de Huertossss 
                         <HuertosForm />

@@ -3,7 +3,7 @@ import '../Styles/Training.css';
 import Capacitaciones from '../img/Capacitaciones.jpg';
 import Modal from 'react-bootstrap/Modal';
 import CapacitacionesForm from './CapacitacionesForm';
-import BancoAlimentos from './BancoAlimentos'
+
 
 const Training = () => {
 	
@@ -32,7 +32,6 @@ const Training = () => {
                     </Modal.Body>
 				</Modal>
 			</div>
-			<BancoAlimentos />
 		</div>
 
 	);

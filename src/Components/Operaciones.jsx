@@ -1,17 +1,12 @@
 import React from 'react'
-//import iconOperaciones from '../img/iconOperaciones.png';
-//import { Figure,Spinner } from 'react-bootstrap';
-import BancoAlimentos from './BancoAlimentosForm';
+import iconOperaciones from '../img/iconOperaciones.png';
+import { Figure,Spinner } from 'react-bootstrap';
 
 const Operaciones = () => {
     return (
 
-      <div>
-        <BancoAlimentos />
-      </div>
 
-
-       /* <div>
+        <div>
             
             <div className="container px-lg-5  pt-5 mt-5 pb-5 mb-5">
             <h1>Nuestro <strong>Modelo de Operaciones</strong></h1>
@@ -119,7 +114,7 @@ const Operaciones = () => {
         </div>
       </div>
         </div>
-       */
+       
     )
 }
 
