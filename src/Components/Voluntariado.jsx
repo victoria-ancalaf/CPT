@@ -3,10 +3,12 @@ import React from 'react'
 // import Voluntario_Landing from '../img/Voluntario_Landing.svg';
 // import { Button, ButtonGroup, Figure } from 'react-bootstrap';
 import Training from '../Components/Training'
+import Huertos from '../Components/Huertos'
 
 const Voluntariado = () => {
   return (
     <div>
+      <Huertos />
       <Training />
       {/* <div className="container px-lg-5">
         <div className="row mx-lg-n5">
