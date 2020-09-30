@@ -1,3 +1,8 @@
+.voluntariado-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .training-container {
     display: flex;
     flex-direction: column;

@@ -4,12 +4,17 @@ import React from 'react'
 // import { Button, ButtonGroup, Figure } from 'react-bootstrap';
 import Training from '../Components/Training'
 import Huertos from '../Components/Huertos'
+import DonarTalento from '../Components/DonarTalento'
+import '../Styles/Training.css';
+
+
 
 const Voluntariado = () => {
   return (
-    <div>
-      <Huertos />
+    <div className="voluntariado-container">
+     <Huertos />
       <Training />
+      <DonarTalento />
       {/* <div className="container px-lg-5">
         <div className="row mx-lg-n5">
           <div className="col-12 col-md-6 py-3 px-lg-5 pt-5 mt-5 pb-5 mb-5 border bg-light align-self-center text-center">
