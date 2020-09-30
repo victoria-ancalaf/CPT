@@ -1,59 +1,38 @@
-import React, {useState} from 'react'
-import iconOperaciones from '../img/iconOperaciones.png';
-import { Figure, Spinner } from 'react-bootstrap';
+import React, { useState } from 'react';
+import '../Styles/Training.css';
+import BancoAlimento from '../img/BancoAlimentos.jpg';
 import Modal from 'react-bootstrap/Modal';
-import Button from 'react-bootstrap/Button';
-
+import BancoAlimentosForm from './BancoAlimentosForm';
 
 const BancoAlimentos = () => {
-    const [lgShow, setLgShow] = useState(false);
+	
+	const [ lgShow, setLgShow ] = useState(false);
 
-    return (
-        <>
-            <div>
+	return (
+		<div>
+			<div className="training-container">
+				<img src={BancoAlimento} alt="BancoAlimento" />
+				<div>
+					<p className="cap-letter">Banco de Alimentos</p>
+					<p className="cap-letter-small">Dona los alimentos que te sobren en casa.</p>
+				</div>
+				<button onClick={() => setLgShow(true)}>Modal</button>
 
-                <div className="container px-lg-5  pt-5 mt-5 pb-5 mb-5">
-                    <h1>Nuestro <strong>Modelo de Operaciones</strong></h1>
-                    <div className="row mx-lg-n5">
-                        <div className="col-12 col-md-2 py-3 px-lg-3 pt-5 mt-5 border bg-light align-self-center text-center">
+				<Modal
+					size="lg"
+					show={lgShow}
+					onHide={() => setLgShow(false)}
+				>
+					<Modal.Header closeButton>
+						<Modal.Title>Banco de Alimentos</Modal.Title>
+					</Modal.Header>
+					<Modal.Body>Dona los alimentos que te sobren en casa.
+                        <BancoAlimentosForm />
+                    </Modal.Body>
+				</Modal>
+			</div>
+		</div>
+	);
+};
 
-                            <Spinner animation="grow" variant="secondary" />
-                            <Figure>
-                                <Figure.Image
-                                    width={206}
-                                    height={203}
-                                    alt="iconOperaciones"
-                                    src={iconOperaciones}
-                                />
-                            </Figure>
-                            <h3><strong>Banco de Alimentos</strong></h3>
-                            <p>Dona los alimentos que te sobren en casa.</p>
-                            <br></br>
-                            <Button onClick={() => setLgShow(true)}>Large modal</Button>
-
-                        </div>
-
-
-                    </div>
-                </div>
-            </div>
-
-
-            <Modal
-                size="lg"
-                show={lgShow}
-                onHide={() => setLgShow(false)}
-                aria-labelledby="example-modal-sizes-title-lg"
-            >
-                <Modal.Header closeButton>
-                    <Modal.Title id="example-modal-sizes-title-lg">
-                        Large Modal
-        </Modal.Title>
-                </Modal.Header>
-                <Modal.Body>...</Modal.Body>
-            </Modal>
-        </>
-    )
-}
-
-export default BancoAlimentos
+export default BancoAlimentos;

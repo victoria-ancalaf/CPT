@@ -1,7 +1,7 @@
 import React from 'react'
 //import iconOperaciones from '../img/iconOperaciones.png';
 //import { Figure,Spinner } from 'react-bootstrap';
-import BancoAlimentos from '../Components/BancoAlimentos';
+import BancoAlimentos from './BancoAlimentosForm';
 
 const Operaciones = () => {
     return (

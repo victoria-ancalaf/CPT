@@ -13,7 +13,7 @@ const Carrusel = () => {
             className="d-block w-100"
             src={carousel1}
             alt="First slide"
-          />;
+          />
     <Carousel.Caption>
             <h3>En esta Navidad, ayúdanos a combatir el hambre en Chile.</h3>
             <p>Menos hambre. Más futuro.</p>
