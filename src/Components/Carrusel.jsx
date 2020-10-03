@@ -14,7 +14,7 @@ const Carrusel = () => {
             src={carousel1}
             alt="First slide"
           />
-    <Carousel.Caption>
+          <Carousel.Caption>
             <h3>En esta Navidad, ayúdanos a combatir el hambre en Chile.</h3>
             <p>Menos hambre. Más futuro.</p>
           </Carousel.Caption>

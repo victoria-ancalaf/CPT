@@ -17,3 +17,15 @@ h4 {
 .parrafo {
     color: #F2F2F2;
 }
+
+.instagram, .email, .whatsapp {
+    width: 55px;
+    height: 55px;
+    margin: 2px;
+    
+}
+
+.redesSociales {
+    text-align: center;
+    margin: 14px 0px;
+}
