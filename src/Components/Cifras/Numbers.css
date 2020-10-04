@@ -1,0 +1,40 @@
+.containerNumbers {
+	display: flex;
+	width: 100%;
+	height: 1024px;
+	background: rgb(240, 87, 10);
+	background: linear-gradient(180deg, #fec163 0%, #fb784f 100%);
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+.number-content {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 40px;
+	color: #4f4f4f;
+	margin-left: 75px;
+}
+
+.icon-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+
+.icon-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.icon-text > img {
+	width: 268px;
+	height: 268px;
+}
+
+.count {
+	font-family: 'Roboto', sans-serif;
+}

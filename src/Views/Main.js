@@ -1,32 +1,47 @@
-import React from 'react'
-import Navbar from '../Components/Navbar'
-import Footer from '../Components/Footer'
-import Carrusel from '../Components/Carrusel'
-//import Graficos from '../Components/Graficos'
-import Operaciones from '../Components/Operaciones'
-import Voluntariado from '../Components/Voluntariado'
-import Numbers from '../Components/Numbers'
-import Colaboradores from '../Components/Colaboradores'
-import Commitment from '../Components/Commitment'
-import Fomentamos from '../Components/Fomentamos'
-
-
+import React from 'react';
+import Navbar from '../Components/Navbar/Navbar';
+import Footer from '../Components/Footer/Footer';
+import Carrusel from '../Components/Header/Carrusel';
+import Operaciones from '../Components/ModeloOperaciones/Operaciones';
+import Voluntariado from '../Components/Voluntariado/Voluntariado';
+import Numbers from '../Components/Cifras/Numbers';
+import Colaboradores from '../Components/Colaboradores/Colaboradores';
+import Commitment from '../Components/SeguridadAlimentaria/Commitment';
+import Fomentamos from '../Components/Fomentamos/Fomentamos';
+import { FullPage, Slide } from 'react-full-page';
 
 const Main = () => {
-    return (
-        <div>
-            <Navbar />
-            <Carrusel />
-            <Voluntariado />
-            <Numbers />
-            <Commitment />
-            <Fomentamos />
-            <Operaciones />
-            {/*<Graficos />*/}
-            <Colaboradores />
-            <Footer />
-        </div>
-    )
-}
+	return (
+		<div>
+			<FullPage>
+				<Navbar />
+				<Slide>
+					<Carrusel />
+				</Slide>
+				<Slide>
+					<Voluntariado />
+				</Slide>
+				<Slide>
+					<Numbers />
+				</Slide>
+				<Slide>
+					<Commitment />
+				</Slide>
+				<Slide>
+					<Fomentamos />
+				</Slide>
+				<Slide>
+					<Operaciones />
+				</Slide>
+				<Slide>
+					<Colaboradores />
+				</Slide>
+				<Slide>
+					<Footer />
+				</Slide>
+			</FullPage>
+		</div>
+	);
+};
 
 export default Main;

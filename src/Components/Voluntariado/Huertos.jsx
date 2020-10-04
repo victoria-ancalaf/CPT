@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import '../Styles/Training.css';
-import Huerta from '../img/Huerta.jpg'
+import './Voluntariado.css';
+import Huerta from '../../img/Huerta.jpg'
 import Modal from 'react-bootstrap/Modal';
 import HuertosForm from './HuertosForm';
 

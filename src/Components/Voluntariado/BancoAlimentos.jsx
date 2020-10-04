@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import '../Styles/Training.css';
-import BancoAlimento from '../img/BancoAlimentos.jpg';
+import './Voluntariado.css';
+import BancoAlimento from '../../img/BancoAlimentos.jpg';
 import Modal from 'react-bootstrap/Modal';
 import BancoAlimentosForm from './BancoAlimentosForm';
 
