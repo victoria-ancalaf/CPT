@@ -1,0 +1,47 @@
+.carouselMensaje{
+    width: 622px;
+    height: 190px;
+    left: 122px;
+    top: 600px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 56px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.btn-ttc,
+.btn-ttc:hover,
+.btn-ttc:active {
+    width: 338px;
+    height: 58px;
+    left: 119px;
+    top: 775px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 20px;
+    
+    color:  #F9F9F9;
+
+    border: 4px solid #F9F9F9;
+    box-sizing: border-box;
+    border-radius: 10px;
+  
+}
+
+
+
+.imagenCarrusel{
+    width: 100%;
+    height: 922px;
+    
+    
+}
