@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import Modal from 'react-bootstrap/Modal';
-import Masas from '../img/Masas.jpg';
-import '../Styles/Training.css';
-import FormTalento from '../Components/FormTalento'
+import Masas from '../../img/Masas.jpg';
+import './Voluntariado.css';
+import FormTalento from '../Voluntariado/FormTalento'
 
 const DonarTalento = () => {
     const [ lgShow, setLgShow ] = useState(false);

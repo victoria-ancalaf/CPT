@@ -1,0 +1,33 @@
+.containerFomentamos {
+	background: #4f4f4f;
+}
+
+.titulo {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 48px;
+	line-height: 56px;
+	display: flex;
+	align-items: center;
+	color: #f2f2f2;
+}
+
+.btn-aprenderMas {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 28px;
+
+	width: 181px;
+	height: 58px;
+	left: 118px;
+	background: linear-gradient(180deg, #fec163 0%, #fb784f 100%);
+	border-radius: 10px;
+	color: #f2f2f2;
+}
+
+.liname {
+	color: #f2f2f2;
+}

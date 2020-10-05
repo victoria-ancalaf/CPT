@@ -1,6 +1,7 @@
 .voluntariado-container {
     display: flex;
     justify-content: space-evenly;
+    height: 1024px;
 }
 
 .training-container {
@@ -33,13 +34,4 @@
     font-size: 18px;
     color: #333333;
     line-height: 21px;
-}
-
-.modal-title {
-    font-family: "Roboto", sans-serif;
-}
-
-.modal-body {
-    height: 500px;
-    background-color: coral;
 }

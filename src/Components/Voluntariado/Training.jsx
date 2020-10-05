@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import '../Styles/Training.css';
-import Capacitaciones from '../img/Capacitaciones.jpg';
+import './Voluntariado.css';
+import Capacitaciones from '../../img/Capacitaciones.jpg';
 import Modal from 'react-bootstrap/Modal';
 import CapacitacionesForm from './CapacitacionesForm';
 

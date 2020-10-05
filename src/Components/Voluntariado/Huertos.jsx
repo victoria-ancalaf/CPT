@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import '../Styles/Training.css';
-import Huerta from '../img/Huerta.jpg'
+import './Huertos.css';
+import Huerta from '../../img/Huerta.jpg'
 import Modal from 'react-bootstrap/Modal';
 import HuertosForm from './HuertosForm';
 
@@ -23,12 +23,20 @@ const Huertos = () => {
 					show={huertoShow}
 					onHide={() => setHuertosShow(false)}
 				>
-					<Modal.Header closeButton>
-						<Modal.Title>Huertos Urbanos</Modal.Title>
+					<Modal.Header className="modal-header" closeButton>
 					</Modal.Header>
-					<Modal.Body>Este es el modal de Huertossss 
+					<Modal.Body>
+						<p className="huertos-p1">
+							Donar terreno para <strong>huertos urbanos</strong>
+						</p>
+						<p className="huertos-p2">
+							Muchas gracias por tu interés en donar 
+							terreno para la creación de huertos<br></br>
+							urbanos comunitarios. Nos contactaremos contigo a la brevedad.
+						</p>
                         <HuertosForm />
                     </Modal.Body>
+					<Modal.Footer></Modal.Footer>
 				</Modal>
 			</div>
 		</div>

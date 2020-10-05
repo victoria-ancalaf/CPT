@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../Styles/Navbar.css'
-import LogoCPT from '../img/Logo_comidaparatodos_blanco.png';
+import './Navbar.css'
+import LogoCPT from '../../img/Logo_comidaparatodos_blanco.png';
 import { Link } from "react-router-dom";
-
+import { animateScroll as scroll } from 'react-scroll';
 
 const Navbar = () => {
     const [navbar, setNavbar] = useState(false);
@@ -29,13 +29,16 @@ const Navbar = () => {
 
     window.addEventListener('scroll', changeColor);
 
+    const toggleHome = () => {
+        scroll.scrollToTop();
+    }
 
     return (
         <div>
             <header
                 className={navbar ? 'navbar active' : 'navbar'}>
                 <div className="containerNavbar">
-                   <img src={LogoCPT} alt="Comida para todos" /> 
+                   <img src={LogoCPT} onClick={toggleHome} alt="Comida para todos" /> 
                     <ul className={navLinks ? 'navLinks active' : 'navLinks'}>
                         <Link to="/Nosotros">
                         <li className="list-navbar">Nosotros</li>
