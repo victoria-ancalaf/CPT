@@ -20,18 +20,24 @@ const Video = () => {
 */}
 
     return (
-        <div>
-            <video width="400" ref={videoRef} onClick={handlePlay}>
-                <source src="Videos/PlanetEarth.mp4" type="video/mp4" />
 
-            </video>
-            <button onClick={handlePlay}>
-                {isPlaying ? 'Pause' : 'Play'}
-            </button>
-            {/* <button onClick={handlePause}>
+        <div className="containerVideo px-lg-2  pt-2 mt-2 pb-2 mb-2">
+            <div>
+                <div className="main-container px-lg-5 pt-5 mt-5 pb-5 mb-5">
+                    <video width="800" ref={videoRef} onClick={handlePlay}>
+                        <source src="Videos/PlanetEarth.mp4" type="video/mp4" />
+
+                    </video>
+                    {/*<button onClick={handlePlay}>
+                        {isPlaying ? 'Pause' : 'Play'}
+                    </button>
+                    */}
+                    {/* <button onClick={handlePause}>
                 pause
             </button>
-    */}
+            */}
+                </div>
+            </div>
         </div>
 
     );
