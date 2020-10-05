@@ -1,6 +1,10 @@
 import React from 'react';
 import logoNaranjo from '../img/logoNaranjo.png';
+import iconInstagram from '../img/CPT_Instagram.svg';
+import iconEmail from '../img/CPT_Mail.svg';
+import iconWhatsapp from '../img/CPT_Whatsapp.svg';
 import '../Styles/Footer.css'
+
 
 
 
@@ -10,16 +14,38 @@ const Footer = () => {
             <div className="footer-meddle">
                 <div className="main-container px-lg-5 pt-5 mt-5 pb-5 mb-5">
                     <div className="row">
+                        <div className="redes">
+                            <ul className="list-unstyled">
+                                <li className="redesSociales">
+                                    <a href="https://www.instagram.com/comida_para_todos_cl/">
+                                        <img
+
+                                            className="instagram"
+                                            src={iconInstagram} alt=""
+
+                                        />
+                                    </a>
+                                    <img
+                                        className="email"
+                                        src={iconEmail} alt=""
+                                    />
+                                    <img
+                                        className="whatsapp"
+                                        src={iconWhatsapp} alt=""
+                                    />
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div className="row">
                         {/*colum 1*/}
                         <div className="col-md-3 col-sm-6">
                             <ul className="list-unstyled">
                                 <img
                                     className="d-block w-100"
-                                    src={logoNaranjo}
+                                    src={logoNaranjo} alt=""
                                 />
-                                <li className="liname">Intagram</li>
-                                <li className="liname">Correo</li>
-                                <li className="liname">Whatsapp</li>
+
                             </ul>
                         </div>
                         {/*colum 2*/}
@@ -62,7 +88,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
 
     );
 }

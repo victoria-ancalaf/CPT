@@ -14,6 +14,7 @@ const Carrusel = () => {
             src={carousel1}
             alt="First slide" 
           />
+
           <Carousel.Caption className="carouselMensaje" >
             <div class="container ">
               <h1 >Regala una cena en esta <strong>Navidad</strong>. Escribamos juntos <br />
@@ -22,6 +23,7 @@ const Carrusel = () => {
                 Donar una Cena Navideña
               </button>
             </div>
+
           </Carousel.Caption>
 
         </Carousel.Item>
