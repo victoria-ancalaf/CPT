@@ -10,7 +10,7 @@ const Carrusel = () => {
       <Carousel>
         <Carousel.Item>
           <img
-            className="d-block w-100"
+            className="d-block w-100 vh-100"
             src={carousel1}
             alt="First slide"
           />
@@ -21,7 +21,7 @@ const Carrusel = () => {
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="d-block w-100"
+            className="d-block w-100 vh-100"
             src={carousel2}
             alt="Second slide"
           />
@@ -33,7 +33,7 @@ const Carrusel = () => {
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="d-block w-100"
+            className="d-block w-100 vh-100"
             src={carousel3}
             alt="ver como agregamos las fotos sin url"
           />
