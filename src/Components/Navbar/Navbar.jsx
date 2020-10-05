@@ -6,28 +6,28 @@ import { Link } from "react-router-dom";
 import { animateScroll as scroll } from 'react-scroll';
 
 const Navbar = () => {
-    const [navbar, setNavbar] = useState(false);
-    const [navLinks, setNavLinks] = useState(false);
+    // const [navbar, setNavbar] = useState(false);
+    // const [navLinks, setNavLinks] = useState(false);
 
-    const changeBackground = () => {
-        if(window.scrollY >= 80) {
-            setNavbar(true)
-        } else {
-            setNavbar(false);
-        }
-    }
+    // const changeBackground = () => {
+    //     if(window.scrollY >= 80) {
+    //         setNavbar(true)
+    //     } else {
+    //         setNavbar(false);
+    //     }
+    // }
 
-    window.addEventListener('scroll', changeBackground);
+    // window.addEventListener('scroll', changeBackground);
 
-    const changeColor = () => {
-        if(window.scrollY >= 80) {
-            setNavLinks(true)
-        } else {
-            setNavLinks(false);
-        }
-    }
+    // const changeColor = () => {
+    //     if(window.scrollY >= 80) {
+    //         setNavLinks(true)
+    //     } else {
+    //         setNavLinks(false);
+    //     }
+    // }
 
-    window.addEventListener('scroll', changeColor);
+    // window.addEventListener('scroll', changeColor);
 
     const toggleHome = () => {
         scroll.scrollToTop();
@@ -36,10 +36,10 @@ const Navbar = () => {
     return (
         <div>
             <header
-                className={navbar ? 'navbar active' : 'navbar'}>
+                className="navbar">
                 <div className="containerNavbar">
                    <img src={LogoCPT} onClick={toggleHome} alt="Comida para todos" /> 
-                    <ul className={navLinks ? 'navLinks active' : 'navLinks'}>
+                    <ul className="navLinks">
                         <Link to="/Nosotros">
                         <li className="list-navbar">Nosotros</li>
                         </Link>
