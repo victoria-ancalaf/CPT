@@ -9,6 +9,7 @@ import Numbers from '../Components/Numbers'
 import Colaboradores from '../Components/Colaboradores'
 import Commitment from '../Components/Commitment'
 import Fomentamos from '../Components/Fomentamos'
+import Video from '../Components/Video'
 
 
 
@@ -23,6 +24,7 @@ const Main = () => {
             <Fomentamos />
             <Operaciones />
             {/*<Graficos />*/}
+            <Video />
             <Colaboradores />
             <Footer />
         </div>

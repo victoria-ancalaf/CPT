@@ -1,9 +1,7 @@
 import React from 'react'
 import Carousel, { autoplayPlugin } from '@brainhubeu/react-carousel';
+//import { Carousel} from '@brainhubeu/react-carousel';
 import '@brainhubeu/react-carousel/lib/style.css';
-
-//import { autoplayPlugin } from '@brainhubeu/react-carousel';
-
 //import { Carousel } from 'react-bootstrap';
 import cava from '../img/cava.png';
 import aurora from '../img/aurora.png';
@@ -48,33 +46,33 @@ const Colaboradores = () => {
             animationSpeed={1000}
         >
 
-            <img src={cava} width="300px" height="150px" />
-            <img src={aurora} width="300px" height="150px" />
-            <img src={comedor} width="300px" height="150px" />
-            <img src={foodies} width="300px" height="150px" />
-            <img src={restaurante} width="300px" height="150px" />
-            <img src={ambrosiaBistro} width="300px" height="150px" />
-            <img src={boa} width="300px" height="150px" />
-            <img src={cafeSanJuan} width="300px" height="150px" />
-            <img src={colab} width="300px" height="150px" />
-            <img src={caperucitaLobo} width="300px" height="150px" />
-            <img src={cultiva} width="300px" height="150px" />
-            <img src={elContenedor} width="300px" height="150px" />
-            <img src={land} width="300px" height="150px" />
-            <img src={laChimba} width="300px" height="150px" />
-            <img src={lasCondenadas} width="300px" height="150px" />
-            <img src={manoChef} width="300px" height="150px" />
-            <img src={muniAntofagasta} width="300px" height="150px" />
-            <img src={niam} width="300px" height="150px" />
-            <img src={nossoPrato} width="300px" height="150px" />
-            <img src={pebre} width="300px" height="150px" />
-            <img src={rossoNero} width="300px" height="150px" />
-            <img src={puertoClaro} width="300px" height="150px" />
-            <img src={socialGastronomy} width="300px" height="150px" />
-            <img src={tallerMacera} width="300px" height="150px" />
-            <img src={tele13} width="300px" height="150px" />
-            <img src={estudioEnoki} width="300px" height="150px" />
-            <img src={fundacionGastronomiaSocial} width="300px" height="150px" />
+            <img src={cava} alt="" width="300px" height="150px" />
+            <img src={aurora} alt="" width="300px" height="150px" />
+            <img src={comedor} alt="" width="300px" height="150px" />
+            <img src={foodies} alt="" width="300px" height="150px" />
+            <img src={restaurante} alt="" width="300px" height="150px" />
+            <img src={ambrosiaBistro} alt="" width="300px" height="150px" />
+            <img src={boa} alt="" width="300px" height="150px" />
+            <img src={cafeSanJuan} alt="" width="300px" height="150px" />
+            <img src={colab} alt="" width="300px" height="150px" />
+            <img src={caperucitaLobo} alt="" width="300px" height="150px" />
+            <img src={cultiva} alt="" width="300px" height="150px" />
+            <img src={elContenedor} alt="" width="300px" height="150px" />
+            <img src={land} alt="" width="300px" height="150px" />
+            <img src={laChimba} alt="" width="300px" height="150px" />
+            <img src={lasCondenadas} alt="" width="300px" height="150px" />
+            <img src={manoChef} alt="" width="300px" height="150px" />
+            <img src={muniAntofagasta} alt="" width="300px" height="150px" />
+            <img src={niam} alt="" width="300px" height="150px" />
+            <img src={nossoPrato} alt="" width="300px" height="150px" />
+            <img src={pebre} alt="" width="300px" height="150px" />
+            <img src={rossoNero} alt="" width="300px" height="150px" />
+            <img src={puertoClaro} alt="" width="300px" height="150px" />
+            <img src={socialGastronomy} alt="" width="300px" height="150px" />
+            <img src={tallerMacera} alt="" width="300px" height="150px" />
+            <img src={tele13} alt="" width="300px" height="150px" />
+            <img src={estudioEnoki} alt="" width="300px" height="150px" />
+            <img src={fundacionGastronomiaSocial} alt="" width="300px" height="150px" />
 
         </Carousel>
 

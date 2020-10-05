@@ -11,7 +11,8 @@ const Fomentamos = () => {
                     <div className="row">
                         {/*colum 1*/}
                         <div className="col-md-6 col-sm-6">
-                            <h1 className="titulo">¿Què <strong> fomentamos?</strong></h1>
+                            <h1 className="titulo">¿Què </h1>
+                            <h1 className="titulo"><strong> fomentamos?</strong></h1>
                             <ul className="list-unstyled">
                                 <li className="liname">En Comida Para Todos trabajamos para proteger
                                 la Seguridad Alimentaria,
@@ -30,7 +31,7 @@ const Fomentamos = () => {
                             <ul className="list-unstyled">
                                 <img
                                     className="d-block w-100"
-                                    src={fomentamos}
+                                    src={fomentamos} alt="" 
                                 />
 
                             </ul>
