@@ -1,5 +1,16 @@
 .contenedorColaboradores {
     width: 100%;
     height: 100vh;
-    background: #4F4F4F;
+    /*background: #4F4F4F;*/
+}
+
+.mensaje {
+    width: 884px;
+    /*height: 147px;*/
+    color: #4F4F4F;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
 }

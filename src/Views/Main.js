@@ -8,7 +8,7 @@ import Numbers from '../Components/Cifras/Numbers';
 import Colaboradores from '../Components/Colaboradores/Colaboradores';
 import Commitment from '../Components/SeguridadAlimentaria/Commitment';
 import Fomentamos from '../Components/Fomentamos/Fomentamos';
-import Video from '../Components/Video/Video'
+//import Video from '../Components/Video/Video'
 import { FullPage, Slide } from 'react-full-page';
 
 const Main = () => {
@@ -37,9 +37,10 @@ const Main = () => {
 				<Slide>
 					<Colaboradores />
 				</Slide>
-				<Slide>
+				{/*<Slide>
 					<Video />
 				</Slide>
+				*/}
 				<Slide>
 					<Footer />
 				</Slide>

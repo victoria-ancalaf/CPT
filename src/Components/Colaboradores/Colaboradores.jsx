@@ -41,6 +41,19 @@ const Colaboradores = () => {
             <div>
                 <div className="main-container px-lg-5 pt-5 mt-5 pb-5 mb-5">
                     <div className="row">
+                        <div className="mensaje">
+                            <h1> Nuestros <strong> Colaboradores</strong></h1>
+                            <p>
+                                Contamos con una alianza de colaboradores que desde sus cocinas
+                                proveen de alimento saludable y nutritivo a quienes más lo
+                                necesitan. Nada sería posible sin ellos. ¿Te gustaría unirte a
+                                nuestra red de colaboradores?
+                            </p>
+                            <button className="btn-aprenderMas">
+                                Aprender màs
+                                </button>
+                        </div>
+
                         <Carousel
                             plugins={[
                                 'infinite'
