@@ -1,8 +1,9 @@
 .containerNavbar {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     width: 100%;
-    height: 100px;
+    height: 4.1em;
 }
 
 .containerNavbar > img {
@@ -11,6 +12,7 @@
 }
 
 .navbar {
+    width: 100%;
     position: fixed;
     top: 0;
     right: 0;
@@ -32,7 +34,7 @@
     align-items: center;
     width: 70%;
     font-family: 'Roboto', sans-serif;
-    font-size: 24px;
+    font-size: 1.3em;
     font-weight: normal;
     line-height: 28px;
     color: #F9F9F9;
@@ -66,5 +68,4 @@
 
 a, a:hover {
     color: inherit;
-    
 }
