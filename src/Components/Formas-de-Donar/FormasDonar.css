@@ -1,0 +1,37 @@
+.formasDonar-container {
+    display: flex;
+    justify-content: space-evenly;
+    --height: 100vh;
+}
+
+.training-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 287px;
+    height: 493px;
+    background-color: #F2F2F2;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.training-container > img {
+    width: 217px;
+    height: 216px;
+    border-radius: 20px;
+}
+
+.cap-letter {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #333333;
+}
+
+.cap-letter-small {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    color: #333333;
+    line-height: 21px;
+}

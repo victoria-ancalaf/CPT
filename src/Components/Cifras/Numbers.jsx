@@ -41,7 +41,7 @@ const Numbers = () => {
 				</div>
 			</div>
 			
-					<img src={Vectores} className="vectores" alt='Cifras CPT'></img>
+					{/* <img src={Vectores} className="vectores" alt='Cifras CPT'></img> */}
 		
 		</div>
 	);

@@ -10,6 +10,7 @@ import Commitment from '../Components/SeguridadAlimentaria/Commitment';
 import Fomentamos from '../Components/Fomentamos/Fomentamos';
 //import Video from '../Components/Video/Video'
 import { FullPage, Slide } from 'react-full-page';
+import FormasDonar from '../Components/Formas-de-Donar/FormasDonar';
 
 const Main = () => {
 	return (
@@ -18,6 +19,9 @@ const Main = () => {
 				<Navbar />
 				<Slide>
 					<Carrusel />
+				</Slide>
+				<Slide>
+					<FormasDonar />
 				</Slide>
 				<Slide>
 					<Voluntariado />

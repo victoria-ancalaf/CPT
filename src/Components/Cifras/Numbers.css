@@ -4,19 +4,19 @@
 	height: 100vh;
 	background: #4f4f4f;
 	flex-direction: column;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 
 .number-letter1 {
 	font-family: 'Roboto', sans-serif;
-	font-size: 48px;
+	font-size: 3em;
 	color: #f9f9f9;
 	padding: 0 118px;
 }
 
 .number-letter2 {
 	font-family: 'Roboto', sans-serif;
-	font-size: 20px;
+	font-size: 1.25em;
 	color: #f9f9f9;
 	padding: 0 118px;
 }
@@ -27,7 +27,11 @@
 	flex-wrap: wrap;
 }
 
-
+.icon-text {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
 
 .icon-text > img {
 	width: 100px;
@@ -63,5 +67,6 @@
 
 .vectores {
 	width: 100%;
-	bottom: 0;
+	object-fit: cover;
+  	vertical-align: bottom;
 }

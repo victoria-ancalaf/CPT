@@ -16,7 +16,7 @@ const Commitment = () => {
 					físico y económico a alimento seguro y nutritivo.
 				</p>
 			</div>
-			<button className="btn-commit">Aprender más</button>
+			<button className="btn-commit">Conoce nuestras líneas de acción</button>
 		</div>
 	);
 };

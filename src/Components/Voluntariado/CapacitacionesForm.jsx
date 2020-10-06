@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import './Capacitaciones.css';
 import { firebase } from '../../firebase';
 
 const db = firebase.firestore();
