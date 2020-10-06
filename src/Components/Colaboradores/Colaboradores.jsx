@@ -37,46 +37,65 @@ import './Colaboradores.css'
 const Colaboradores = () => {
     return (
 
-        <Carousel
-            plugins={[
-                'infinite'
-            ]}
+        <div className="contenedorColaboradores">
+            <div>
+                <div className="main-container px-lg-5 pt-5 mt-5 pb-5 mb-5">
+                    <div className="row">
+                        <Carousel
+                            plugins={[
+                                'infinite'
+                            ]}
 
-            autoPlay={2000}
-            animationSpeed={1000}
-        >
-
-            <img src={cava} alt="" width="300px" height="150px" />
-            <img src={aurora} alt="" width="300px" height="150px" />
-            <img src={comedor} alt="" width="300px" height="150px" />
-            <img src={foodies} alt="" width="300px" height="150px" />
-            <img src={restaurante} alt="" width="300px" height="150px" />
-            <img src={ambrosiaBistro} alt="" width="300px" height="150px" />
-            <img src={boa} alt="" width="300px" height="150px" />
-            <img src={cafeSanJuan} alt="" width="300px" height="150px" />
-            <img src={colab} alt="" width="300px" height="150px" />
-            <img src={caperucitaLobo} alt="" width="300px" height="150px" />
-            <img src={cultiva} alt="" width="300px" height="150px" />
-            <img src={elContenedor} alt="" width="300px" height="150px" />
-            <img src={land} alt="" width="300px" height="150px" />
-            <img src={laChimba} alt="" width="300px" height="150px" />
-            <img src={lasCondenadas} alt="" width="300px" height="150px" />
-            <img src={manoChef} alt="" width="300px" height="150px" />
-            <img src={muniAntofagasta} alt="" width="300px" height="150px" />
-            <img src={niam} alt="" width="300px" height="150px" />
-            <img src={nossoPrato} alt="" width="300px" height="150px" />
-            <img src={pebre} alt="" width="300px" height="150px" />
-            <img src={rossoNero} alt="" width="300px" height="150px" />
-            <img src={puertoClaro} alt="" width="300px" height="150px" />
-            <img src={socialGastronomy} alt="" width="300px" height="150px" />
-            <img src={tallerMacera} alt="" width="300px" height="150px" />
-            <img src={tele13} alt="" width="300px" height="150px" />
-            <img src={estudioEnoki} alt="" width="300px" height="150px" />
-            <img src={fundacionGastronomiaSocial} alt="" width="300px" height="150px" />
-
-        </Carousel>
+                            autoPlay={2000}
+                            animationSpeed={1000}
+                        >
 
 
+                            <img src={cava} alt="" width="300px" height="150px" />
+                            <img src={aurora} alt="" width="300px" height="150px" />
+                            <img src={comedor} alt="" width="300px" height="150px" />
+                            <img src={foodies} alt="" width="300px" height="150px" />
+                            <img src={restaurante} alt="" width="300px" height="150px" />
+                            <img src={ambrosiaBistro} alt="" width="300px" height="150px" />
+                            <img src={boa} alt="" width="300px" height="150px" />
+                            <img src={cafeSanJuan} alt="" width="300px" height="150px" />
+                            <img src={colab} alt="" width="300px" height="150px" />
+                            <img src={caperucitaLobo} alt="" width="300px" height="150px" />
+                            <img src={cultiva} alt="" width="300px" height="150px" />
+                            <img src={elContenedor} alt="" width="300px" height="150px" />
+                            <img src={land} alt="" width="300px" height="150px" />
+
+
+
+                        </Carousel>
+
+                        <Carousel
+                            plugins={[
+                                'infinite'
+                            ]}
+
+                            autoPlay={2000}
+                            animationSpeed={900}
+                        >
+                            <img src={laChimba} alt="" width="300px" height="150px" />
+                            <img src={lasCondenadas} alt="" width="300px" height="150px" />
+                            <img src={manoChef} alt="" width="300px" height="150px" />
+                            <img src={muniAntofagasta} alt="" width="300px" height="150px" />
+                            <img src={niam} alt="" width="300px" height="150px" />
+                            <img src={nossoPrato} alt="" width="300px" height="150px" />
+                            <img src={pebre} alt="" width="300px" height="150px" />
+                            <img src={rossoNero} alt="" width="300px" height="150px" />
+                            <img src={puertoClaro} alt="" width="300px" height="150px" />
+                            <img src={socialGastronomy} alt="" width="300px" height="150px" />
+                            <img src={tallerMacera} alt="" width="300px" height="150px" />
+                            <img src={tele13} alt="" width="300px" height="150px" />
+                            <img src={estudioEnoki} alt="" width="300px" height="150px" />
+                            <img src={fundacionGastronomiaSocial} alt="" width="300px" height="150px" />
+                        </Carousel>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     )
 }
