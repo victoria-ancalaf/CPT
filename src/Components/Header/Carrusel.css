@@ -2,7 +2,7 @@
     width: 622px;
     height: 190px;
     left: 122px;
-    top: 600px;
+    top: 450px;
 
     font-family: Roboto;
     font-style: normal;
@@ -41,7 +41,6 @@
 
 .imagenCarrusel{
     width: 100%;
-    /*height: 100vh;*/
-    
+    height: 100vh;
     
 }

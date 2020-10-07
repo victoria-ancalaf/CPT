@@ -38,15 +38,15 @@ const Operaciones = () => {
 
     <div className="operaciones">
 
-      <div className="row ">
+   
 
-        <div className="container">
+        <div className="containerOperaciones">
           <div className="mensaje">
-          <h1>Conoce nuestro <strong>Modelo de Operaciones</strong></h1>
+          <h1>Conoce nuestro <strong> Modelo de Operaciones</strong></h1>
           <p>Nuestro modelo de operaciones está al servicio de las áreas que buscamos potenciar, multiplicando lo recaudado, reactivando restaurantes,
              dando trabajo a transportistas y asegurando la llegada de alimento a los sectores que más lo necesitan.</p>
              </div>
-          <Carousel responsive={responsive}> 
+          <Carousel className="CarruselOperaciones" responsive={responsive}> 
             <div className="col-12 logo">
               <div className="ImagenOperaciones">
               <Figure>
@@ -154,7 +154,7 @@ const Operaciones = () => {
 
         </div>
       </div>
-    </div>
+    
 
   )
 }
