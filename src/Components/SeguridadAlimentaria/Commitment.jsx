@@ -11,8 +11,8 @@ const Commitment = () => {
 					<strong>Seguridad Alimentaria</strong> para 2030
 				</p>
 				<p className="p-2-style">
-					Estamos comprometidos con la Agenda 2030 ODS:<br />
-					asegurar que todas las personas tengan acceso social,<br />
+					Estamos comprometidos con la Agenda 2030 ODS:
+					asegurar que todas las <br></br>personas tengan acceso social,
 					físico y económico a alimento seguro y nutritivo.
 				</p>
 			</div>
