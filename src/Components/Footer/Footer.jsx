@@ -12,59 +12,68 @@ const Footer = () => {
     return (
         <div className="containerFooter px-lg-2  pt-2 mt-2 pb-2 mb-2">
             <div className="footer-meddle">
-                <div className="main-container px-lg-5 pt-5 mt-5 pb-5 mb-5">
+                <div className="main-container px-lg-4 pt-5 pb-6">
                     <div className="row">
-                        <div className="row">
-                            {/*colum 1*/}
-                            <div className="col-md-3 col-sm-6">
-                                <ul className="list-unstyled">
-                                    <img
-                                        className="logoNaranjo"
-                                        src={logoNaranjo} alt=""
-                                    />
-                                </ul>
-                            </div>
-                        </div>
-                        <div className="contacto">
+                        {/*colum 1*/}
+                        <div className="col-md-3 col-sm-6">
                             <ul className="list-unstyled">
-                                <h1> Escribenos, <strong> te leemos</strong></h1>
-                                <tr> {/*className="list-unstyled">*/}
-                                    <td><input className="nombre" placeholder="Nombre"></input></td>
-                                    <td><input className="mail" placeholder="Email"></input></td>
+                                <img
+                                    className="logoNaranjo"
+                                    src={logoNaranjo} alt=""
+                                />
+                            </ul>
+                        </div>
+                    </div>
+                    <div className="contacto">
+                        <ul className="list-unstyled">
+                            <h1> Escribenos, <strong> te leemos</strong></h1>
+                            <tr> {/*className="list-unstyled">*/}
+                                <td><input className="nombre" placeholder="Nombre"></input></td>
+                                <td><input className="mail" placeholder="Email"></input></td>
 
-                                </tr>
-                                <li><input className="asunto" placeholder="Asunto"></input></li>
-                                <li><textarea className="elmensaje" placeholder="Mensaje"></textarea></li>
+                            </tr>
+                            <li><input className="asunto" placeholder="Asunto"></input></li>
+                            <li><textarea className="elmensaje" placeholder="Mensaje"></textarea></li>
 
+                        </ul>
 
-                                <li className="redesSociales">
-                                    <a href="https://www.instagram.com/comida_para_todos_cl/">
-                                        <img
+                        <div className="redesSociales">
+                            <li className="instagramPrueba list-unstyled">
+                                <a href="https://www.instagram.com/comida_para_todos_cl/">
+                                    <img
 
-                                            className="instagram"
-                                            src={iconInstagram} alt=""
-
-                                        />
-                                    </a>
+                                        className="instagram"
+                                        src={iconInstagram} alt=""
+                                    />
+                                </a>
+                                <li className="emailPrueba" >
                                     <img
                                         className="email"
                                         src={iconEmail} alt=""
                                     />
+                                </li>
+                                <li className="whatsappPrueba" >
                                     <img
                                         className="whatsapp"
                                         src={iconWhatsapp} alt=""
                                     />
-                                    <button className="enviar">
+                                </li>
+                                <div className="enviar">
+                                    <button className="btn-enviar">
                                         Enviar
                                 </button>
+                                </div>
 
-                                </li>
-                            </ul>
+
+                            </li>
+
                         </div>
-
                     </div>
+
+
                 </div>
-                <div className="row">
+
+                <div className="contenedorRow row">
                     {/*colum 1*/}
                     <div className="col-md-3 col-sm-6">
                         <h4>Red de Comunicaciòn</h4>
@@ -105,7 +114,6 @@ const Footer = () => {
                 {/*</div>*/}
             </div>
         </div>
-
 
     );
 }

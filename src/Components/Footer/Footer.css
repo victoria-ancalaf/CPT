@@ -53,7 +53,7 @@ h4 {
 
 }
 
-.enviar {
+.btn-enviar {
     
     width: 128px;
     height: 58px;
@@ -80,6 +80,23 @@ h4 {
     height: 120px;
 }
 
-.contacto {
-    align-items: center;
+.main-container{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 3%;
+}
+
+.instagramPrueba {
+    display: flex;
+}
+
+.enviar {
+    inline-size: -webkit-fill-available;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contenedorRow {
+
+    justify-content: center;
 }
