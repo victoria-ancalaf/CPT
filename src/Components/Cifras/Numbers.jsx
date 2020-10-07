@@ -11,7 +11,7 @@ import CountUpNumber from './CountUpNumber';
 const Numbers = () => {
 	return (
 		<div className="containerNumbers">
-			<div>
+			<div className="numbers-main-l">
 				<p className="number-letter1">
 					Esto es posible <strong>gracias a ti</strong>
 				</p>
@@ -41,7 +41,7 @@ const Numbers = () => {
 				</div>
 			</div>
 			
-					{/* <img src={Vectores} className="vectores" alt='Cifras CPT'></img> */}
+					<img src={Vectores} className="vectores" alt='Cifras CPT'></img>
 		
 		</div>
 	);

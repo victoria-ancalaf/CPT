@@ -7,16 +7,20 @@
 	justify-content: space-around;
 }
 
+.numbers-main-l {
+	padding-top: 199px;
+}
+
 .number-letter1 {
 	font-family: 'Roboto', sans-serif;
-	font-size: 2.5em;
+	font-size: 48px;
 	color: #f9f9f9;
 	padding: 0 118px;
 }
 
 .number-letter2 {
 	font-family: 'Roboto', sans-serif;
-	font-size: 1.2em;
+	font-size: 20px;
 	color: #f9f9f9;
 	padding: 0 118px;
 }
@@ -63,16 +67,17 @@
 }
 
 .btn-cifras {
-	width: 299px;
-	height: 55px;
+	width: 317px;
+	height: 58px;
 	border: 4px solid #f9f9f9;
 	border-radius: 10px;
 	background-color: transparent;
 	font-family: 'Roboto', sans-serif;
 	color: #f9f9f9;
-	font-size: 1.4em;
+	font-size: 24px;
 	font-weight: bold;
 	margin-left: 118px;
+	padding-top: 1%;
 }
 
 .btn-cifras:hover {
