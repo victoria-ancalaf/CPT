@@ -5,7 +5,7 @@ import './Fomentamos.css'
 const Fomentamos = () => {
     return (
 
-        <div className="containerFomentamos px-lg-2  pt-2 mt-2 pb-2 mb-2">
+        <div className="containerFomentamos px-lg-2  pt-2 pb-2">
             <div className="footer-meddle">
                 <div className="main-container px-lg-5 pt-5 mt-5 pb-5 mb-5">
                     <div className="row">
