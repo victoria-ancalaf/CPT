@@ -4,38 +4,58 @@
     height: 1024px;
 }
 
-.training-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    width: 287px;
-    height: 493px;
-    background-color: #F2F2F2;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 20px;
+.huertos-container {
+  display: flex;
+  width: 577px;
+  height: 300px;
+  border-radius: 20px;
+  background: #F9F9F9;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-.training-container > img {
-    width: 217px;
-    height: 216px;
-    border-radius: 20px;
+.huertos-left {
+    width: 50%;
 }
 
-.cap-letter {
+.huertos-left > img {
+   background-image: url(../../img/Huerta.jpg);
+   
+}
+
+.huertos-right {
+    width: 50%;
+}
+
+.huertos-letter {
     font-family: "Roboto", sans-serif;
     font-weight: bold;
     font-size: 24px;
     color: #333333;
 }
 
-.cap-letter-small {
+.huertos-letter-small {
     font-family: "Roboto", sans-serif;
     font-size: 18px;
     color: #333333;
     line-height: 21px;
 }
 
+.btn-huertos {
+    width: 167px;
+    height: 58px;
+    border-radius: 10px;
+    border: 2px solid #FA6E20;
+    background-color: transparent;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #FA6E20;
+}
+
+.btn-huertos:hover {
+    color: #F9F9F9;
+    background: linear-gradient(180deg, #FF9029 0%, #F34B14 100%);
+}
 
 /* Modal */
 

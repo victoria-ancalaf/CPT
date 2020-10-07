@@ -9,14 +9,14 @@
 
 .number-letter1 {
 	font-family: 'Roboto', sans-serif;
-	font-size: 3em;
+	font-size: 2.5em;
 	color: #f9f9f9;
 	padding: 0 118px;
 }
 
 .number-letter2 {
 	font-family: 'Roboto', sans-serif;
-	font-size: 1.25em;
+	font-size: 1.2em;
 	color: #f9f9f9;
 	padding: 0 118px;
 }
@@ -27,6 +27,22 @@
 	flex-wrap: wrap;
 }
 
+.icon-container > div:first-child  {
+	margin-top: -8%;
+}
+
+.icon-container > div:nth-child(2)  {
+	margin-top: -11%;
+}
+
+.icon-container > div:nth-child(3)  {
+	margin-top: -16%;
+}
+
+.icon-container > div:nth-child(4) {
+	margin-top: -26%;
+}
+
 .icon-text {
 	display: flex;
 	flex-direction: column;
@@ -34,8 +50,8 @@
 }
 
 .icon-text > img {
-	width: 100px;
-	height: 100px;
+	width: 75px;
+	height: 75px;
 	fill: white;
 }
 
@@ -47,14 +63,14 @@
 }
 
 .btn-cifras {
-	width: 317px;
-	height: 58px;
+	width: 299px;
+	height: 55px;
 	border: 4px solid #f9f9f9;
 	border-radius: 10px;
 	background-color: transparent;
 	font-family: 'Roboto', sans-serif;
 	color: #f9f9f9;
-	font-size: 24px;
+	font-size: 1.4em;
 	font-weight: bold;
 	margin-left: 118px;
 }
