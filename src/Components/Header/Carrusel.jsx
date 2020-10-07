@@ -23,7 +23,7 @@ const Carrusel = () => {
           <div className="imagenCarrusel carousel slide carousel-fade" data-ride="carousel">
             <div className="carousel-inner" role="listbox">
               <div className="carousel-item active">
-                <video className="video-fluid" autoplay loop muted ref={videoRef} onClick={handlePlay}>
+                <video  className="video-fluid" autoplay loop muted ref={videoRef} onClick={handlePlay}>
                   <source src="Videos/ComidaParaTodos.mp4" type="video/mp4" />
                 </video>
                 <Carousel.Caption className="carouselMensaje" >
@@ -32,7 +32,7 @@ const Carrusel = () => {
                       <strong> la receta para un mejor país </strong>.</h1>
                     <button type="button" className="btn btn-ttc" >
                       Donar una Cena Navideña
-              </button>
+                    </button>
                   </div>
 
                 </Carousel.Caption>
