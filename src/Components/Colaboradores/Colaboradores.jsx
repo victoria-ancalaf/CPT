@@ -37,9 +37,9 @@ import './Colaboradores.css'
 const Colaboradores = () => {
     return (
 
-        <div className="contenedorColaboradores">
-            <div>
-                <div className="main-container px-lg-5 pt-5 mt-5 pb-5 mb-5">
+        <div className="contenedorColaboradores pt-5">
+           
+                <div className="main-container px-lg-5 pt-5 pb-5 mb-5">
                     <div className="row">
                         <div className="mensajeColaboradores">
                             <h1> Nuestros <strong> Colaboradores</strong></h1>
@@ -73,16 +73,6 @@ const Colaboradores = () => {
                             <img src={foodies} alt="" width="300px" height="150px" />
                             <img src={restaurante} alt="" width="300px" height="150px" />
                             <img src={ambrosiaBistro} alt="" width="300px" height="150px" />
-
-
-                            <Carousel className="carouselEste"
-                            plugins={[
-                                'infinite'
-                            ]}
-
-                            autoPlay={2000}
-                            animationSpeed={1000}
-                        >
                             <img src={boa} alt="" width="300px" height="150px" />
                             <img src={cafeSanJuan} alt="" width="300px" height="150px" />
                             <img src={colab} alt="" width="300px" height="150px" />
@@ -90,7 +80,7 @@ const Colaboradores = () => {
                             <img src={cultiva} alt="" width="300px" height="150px" />
                             <img src={elContenedor} alt="" width="300px" height="150px" />
                             <img src={land} alt="" width="300px" height="150px" />
-                        </Carousel>
+
 
                         </Carousel>
 
@@ -119,7 +109,7 @@ const Colaboradores = () => {
                         </Carousel>
                     </div>
                 </div>
-            </div>
+          
         </div>
 
     )
