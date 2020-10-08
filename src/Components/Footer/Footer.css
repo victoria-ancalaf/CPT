@@ -1,6 +1,6 @@
 .containerFooter {
     width: 100%;
-    /*height: 100vh;*/
+    height: 100vh;
     background: #4F4F4F;
 }
 
@@ -29,8 +29,8 @@ h4 {
 }
 
 .logoNaranjo {
-    width: 247px;
-    height: 265px;
+    width: 289px;
+    height: 311px;
 }
 
 .redesSociales {
@@ -62,20 +62,14 @@ h4 {
     border-radius: 10px;
     color: #F9F9F9;
     background: transparent;
-
 }
 
 .nombre, .mail {
 
-    width: 260px;
-    height: 30px;
-}
-
-.asunto {
-
     width: 520px;
     height: 30px;
 }
+
 
 .elmensaje {
 
@@ -102,4 +96,18 @@ h4 {
 .contenedorRow {
 
     justify-content: center;
+}
+
+.titulo {
+    color: #F9F9F9;
+}
+/*
+.contenedorMuni, .contenedorRestaurante, .contenedorSociales {
+
+    margin-top: 312px;
+}
+*/
+
+.contenedorContenedor {
+    margin-top: 50px;
 }
