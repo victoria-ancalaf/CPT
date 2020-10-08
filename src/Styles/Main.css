@@ -1,0 +1,13 @@
+.hola {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    align-content: center;
+}
+
+.hola > button{
+    background-color: darkblue;
+    width: 30px;
+    height: 30px;
+}

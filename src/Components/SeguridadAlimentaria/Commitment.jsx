@@ -4,7 +4,7 @@ import './Commitment.css';
 const Commitment = () => {
 	return (
 		<div className="containerCommitment">
-			<div>
+			<div className="seguridad-alimentaria">
 				<p className="p-1-style">
 					Nuestro compromiso con la
 					<br />
@@ -15,8 +15,9 @@ const Commitment = () => {
 					asegurar que todas las <br></br>personas tengan acceso social,
 					físico y económico a alimento seguro y nutritivo.
 				</p>
+				<button className="btn-commit">Conoce nuestras líneas de acción</button>
 			</div>
-			<button className="btn-commit">Conoce nuestras líneas de acción</button>
+			
 		</div>
 	);
 };

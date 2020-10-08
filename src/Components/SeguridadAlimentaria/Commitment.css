@@ -1,6 +1,6 @@
 .containerCommitment {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     flex-direction: column;
     align-items: flex-start;
     padding: 0 118px;
@@ -11,29 +11,38 @@
     background-size: cover;
 }
 
+.seguridad-alimentaria {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 12%;
+}
+
 .p-1-style {
     font-family: "Roboto", sans-serif;
     color: #F2F2F2;
-    font-size: 2.5em;
+    font-size: 48px;
     margin-top: 15%;
 }
 
 .p-2-style {
     font-family: "Roboto", sans-serif;
     color: #F2F2F2;
-    font-size: 1.2em;
+    font-size: 20px;
 }
 
 .btn-commit {
-    width: 396px;
-    height: 55px;
+    width: 423px;
+    height: 58px;
     background: transparent;
     border: 4px solid #F9F9F9;
     border-radius: 10px;
     color: #F9F9F9;
     font-family: "Roboto", sans-serif;
-    font-size: 1.4em;
+    font-size: 24px;
     font-weight: bold;
+    margin-top: 2%;
 }
 
 .btn-commit:hover {

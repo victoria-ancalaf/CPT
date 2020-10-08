@@ -11,6 +11,7 @@ import Fomentamos from '../Components/Fomentamos/Fomentamos';
 //import Video from '../Components/Video/Video'
 import { FullPage, Slide } from 'react-full-page';
 import FormasDonar from '../Components/Formas-de-Donar/FormasDonar';
+import '../Styles/Main.css';
 
 const Main = () => {
 	return (

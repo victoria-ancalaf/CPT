@@ -6,29 +6,7 @@ import { Link } from 'react-router-dom';
 import { animateScroll as scroll } from 'react-scroll';
 
 const Navbar = () => {
-	// const [navbar, setNavbar] = useState(false);
-	// const [navLinks, setNavLinks] = useState(false);
-
-	// const changeBackground = () => {
-	//     if(window.scrollY >= 80) {
-	//         setNavbar(true)
-	//     } else {
-	//         setNavbar(false);
-	//     }
-	// }
-
-	// window.addEventListener('scroll', changeBackground);
-
-	// const changeColor = () => {
-	//     if(window.scrollY >= 80) {
-	//         setNavLinks(true)
-	//     } else {
-	//         setNavLinks(false);
-	//     }
-	// }
-
-	// window.addEventListener('scroll', changeColor);
-
+	
 	const toggleHome = () => {
 		scroll.scrollToTop();
 	};
