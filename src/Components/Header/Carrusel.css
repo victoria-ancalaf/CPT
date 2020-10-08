@@ -1,18 +1,38 @@
 .carouselMensaje{
-    width: 622px;
-    height: 190px;
-    left: 122px;
-    top: 450px;
+    
 
-    font-family: Roboto;
+    
     font-style: normal;
     font-weight: normal;
-    font-size: 48px;
+   
     line-height: 56px;
     display: flex;
     align-items: center;
     text-align: left;
     color: #FFFFFF;
+
+    position: absolute;
+
+
+
+
+
+font-family: 'Roboto', sans-serif;
+	font-size: 2.5em;
+left:  118px;
+
+    top: 600px;
+   
+width: 600px;
+height: 174px;
+left: 118px;
+
+
+
+
+
+
+
 }
 
 .btn-ttc,
@@ -37,10 +57,18 @@
   
 }
 
-
-
 .imagenCarrusel{
     width: 100%;
     height: 100vh;
     
+}
+
+
+.imagenCarrusel2{
+  
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    width: 1440px;
+    height: 1022px;
+   left: 1440px;
+    top: 0px;
 }
