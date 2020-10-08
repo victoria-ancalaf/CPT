@@ -41,20 +41,23 @@ const Colaboradores = () => {
             <div>
                 <div className="main-container px-lg-5 pt-5 mt-5 pb-5 mb-5">
                     <div className="row">
-                        <div className="mensaje">
+                        <div className="mensajeColaboradores">
                             <h1> Nuestros <strong> Colaboradores</strong></h1>
                             <p>
                                 Contamos con una alianza de colaboradores que desde sus cocinas
                                 proveen de alimento saludable y nutritivo a quienes más lo
-                                necesitan. Nada sería posible sin ellos. ¿Te gustaría unirte a
+                                necesitan. Nada sería posible sin ellos. 
+                            </p>
+                            <p>
+                                ¿Te gustaría unirte a
                                 nuestra red de colaboradores?
                             </p>
-                            <button className="btn-aprenderMas">
+                            <button className="btn-aprender">
                                 Aprender màs
                                 </button>
                         </div>
 
-                        <Carousel
+                        <Carousel className="carouselEste"
                             plugins={[
                                 'infinite'
                             ]}
@@ -70,6 +73,16 @@ const Colaboradores = () => {
                             <img src={foodies} alt="" width="300px" height="150px" />
                             <img src={restaurante} alt="" width="300px" height="150px" />
                             <img src={ambrosiaBistro} alt="" width="300px" height="150px" />
+
+
+                            <Carousel className="carouselEste"
+                            plugins={[
+                                'infinite'
+                            ]}
+
+                            autoPlay={2000}
+                            animationSpeed={1000}
+                        >
                             <img src={boa} alt="" width="300px" height="150px" />
                             <img src={cafeSanJuan} alt="" width="300px" height="150px" />
                             <img src={colab} alt="" width="300px" height="150px" />
@@ -77,12 +90,11 @@ const Colaboradores = () => {
                             <img src={cultiva} alt="" width="300px" height="150px" />
                             <img src={elContenedor} alt="" width="300px" height="150px" />
                             <img src={land} alt="" width="300px" height="150px" />
-
-
+                        </Carousel>
 
                         </Carousel>
 
-                        <Carousel
+                        <Carousel className="carouselEste"
                             plugins={[
                                 'infinite'
                             ]}

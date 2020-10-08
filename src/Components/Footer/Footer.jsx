@@ -10,7 +10,7 @@ import './Footer.css'
 
 const Footer = () => {
     return (
-        <div className="containerFooter px-lg-2  pt-2 mt-2 pb-2 mb-2">
+        <div className="containerFooter px-lg-2 pt-2 mt-2 pb-2 mb-2">
             <div className="footer-meddle">
                 <div className="main-container px-lg-4 pt-5 pb-6">
                     <div className="row">

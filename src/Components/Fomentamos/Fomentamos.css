@@ -1,10 +1,10 @@
 .containerFomentamos {
-	width: 100%;
-	/*height: 100vh;*/
+    width: 100%;
+    height: 100vh;
 	background: #4f4f4f;
 }
 
-.titulo {
+.fomentamos {
 	font-family: Roboto;
 	font-style: normal;
 	font-weight: normal;
@@ -13,6 +13,9 @@
 	display: flex;
 	align-items: center;
 	color: #f2f2f2;
+
+	width: 648px;
+	height: 56.27px;
 }
 
 .btn-aprenderMas {
@@ -22,12 +25,15 @@
 	font-size: 24px;
 	line-height: 28px;
 
-	width: 181px;
+	width: 243px;
 	height: 58px;
 	left: 118px;
-	background: linear-gradient(180deg, #fec163 0%, #fb784f 100%);
 	border-radius: 10px;
-	color: #f2f2f2;
+	color: #F9F9F9;
+	background: transparent;
+	border: 4px solid #F9F9F9;
+    box-sizing: border-box;
+   
 }
 
 .liname {
