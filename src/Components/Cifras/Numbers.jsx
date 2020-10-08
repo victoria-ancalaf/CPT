@@ -8,6 +8,7 @@ import './Numbers.css';
 import './CountUpNumber';
 import CountUpNumber from './CountUpNumber';
 
+
 const Numbers = () => {
 	return (
 		<div className="containerNumbers">
@@ -26,21 +27,25 @@ const Numbers = () => {
 				<div className="icon-text">
 					<img src={Olla} alt="Comedores" />
 					<CountUpNumber className="count" end={28} duration={1.5} />
+						<p className="p-cifras-icon">Comedores <br></br>apoyados</p> 
 				</div>
 				<div className="icon-text">
 				<img src={Chef} alt="Puestos empleo" />
 					<CountUpNumber className="count" end={72} duration={1.5} />
+					<p className="p-cifras-icon">Puestos de empleo<br></br>activados</p>
 				</div>
 				<div className="icon-text">
 				<img src={Comida} alt="Comen a diario" />
 					<CountUpNumber className="count" end={3.2} decimals={3} duration={1.5} />
+					<p className="p-cifras-icon">Personas comen a<br></br>diario</p>
 				</div>
 				<div className="icon-text">
 				<img src={Plato} alt="Almuerzos solidarios" />
 					<CountUpNumber className="count" end={160} decimals={3} duration={1.5} />
+					<p className="p-cifras-icon">Almuerzos solidarios<br></br>recaudados</p>
 				</div>
 			</div>
-			
+		
 					<img src={Vectores} className="vectores" alt='Cifras CPT'></img>
 		
 		</div>

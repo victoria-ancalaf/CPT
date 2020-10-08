@@ -1,7 +1,8 @@
 .formasDonar-container {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    --margin-top: 12%;
 }
 
 .formar-donar-text {
@@ -43,6 +44,7 @@
 
 .fdonar-card-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 0 118px;
+    margin-top: 5%;
 }
