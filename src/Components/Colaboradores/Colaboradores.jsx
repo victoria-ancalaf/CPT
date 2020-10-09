@@ -1,7 +1,7 @@
 import React from 'react'
-import Carousel, { autoplayPlugin } from '@brainhubeu/react-carousel';
+//import Carousel, { autoplayPlugin } from '@brainhubeu/react-carousel';
 //import { Carousel} from '@brainhubeu/react-carousel';
-import '@brainhubeu/react-carousel/lib/style.css';
+//import '@brainhubeu/react-carousel/lib/style.css';
 //import { Carousel } from 'react-bootstrap';
 import cava from '../../img/cava.png';
 import aurora from '../../img/aurora.png';
@@ -38,78 +38,64 @@ const Colaboradores = () => {
     return (
 
         <div className="contenedorColaboradores pt-5">
-           
-                <div className="main-container px-lg-5 pt-5 pb-5 mb-5">
-                    <div className="row">
-                        <div className="mensajeColaboradores">
-                            <h1> Nuestros <strong> Colaboradores</strong></h1>
-                            <p>
-                                Contamos con una alianza de colaboradores que desde sus cocinas
-                                proveen de alimento saludable y nutritivo a quienes más lo
-                                necesitan. Nada sería posible sin ellos. 
+
+            <div className="main-container px-lg-5 pt-5 pb-5 mb-5">
+                <div className="row">
+                    <div className="mensajeColaboradores">
+                        <h1> Nuestros <strong> Colaboradores</strong></h1>
+                        <p>
+                            Contamos con una alianza de colaboradores que desde sus cocinas
+                            proveen de alimento saludable y nutritivo a quienes más lo
+                            necesitan. Nada sería posible sin ellos.
                             </p>
-                            <p>
-                                ¿Te gustaría unirte a
-                                nuestra red de colaboradores?
+                        <p>
+                            ¿Te gustaría unirte a
+                            nuestra red de colaboradores?
                             </p>
-                            <button className="btn-aprender">
-                                Aprender màs
+                        <button className="btn-aprender">
+                            Aprender màs
                                 </button>
-                        </div>
-
-                        <Carousel className="carouselEste"
-                            plugins={[
-                                'infinite'
-                            ]}
-
-                            autoPlay={2000}
-                            animationSpeed={1000}
-                        >
-
-
-                            <img src={cava} alt="" width="300px" height="150px" />
-                            <img src={aurora} alt="" width="300px" height="150px" />
-                            <img src={comedor} alt="" width="300px" height="150px" />
-                            <img src={foodies} alt="" width="300px" height="150px" />
-                            <img src={restaurante} alt="" width="300px" height="150px" />
-                            <img src={ambrosiaBistro} alt="" width="300px" height="150px" />
-                            <img src={boa} alt="" width="300px" height="150px" />
-                            <img src={cafeSanJuan} alt="" width="300px" height="150px" />
-                            <img src={colab} alt="" width="300px" height="150px" />
-                            <img src={caperucitaLobo} alt="" width="300px" height="150px" />
-                            <img src={cultiva} alt="" width="300px" height="150px" />
-                            <img src={elContenedor} alt="" width="300px" height="150px" />
-                            <img src={land} alt="" width="300px" height="150px" />
-
-
-                        </Carousel>
-
-                        <Carousel className="carouselEste"
-                            plugins={[
-                                'infinite'
-                            ]}
-
-                            autoPlay={2000}
-                            animationSpeed={900}
-                        >
-                            <img src={laChimba} alt="" width="300px" height="150px" />
-                            <img src={lasCondenadas} alt="" width="300px" height="150px" />
-                            <img src={manoChef} alt="" width="300px" height="150px" />
-                            <img src={muniAntofagasta} alt="" width="300px" height="150px" />
-                            <img src={niam} alt="" width="300px" height="150px" />
-                            <img src={nossoPrato} alt="" width="300px" height="150px" />
-                            <img src={pebre} alt="" width="300px" height="150px" />
-                            <img src={rossoNero} alt="" width="300px" height="150px" />
-                            <img src={puertoClaro} alt="" width="300px" height="150px" />
-                            <img src={socialGastronomy} alt="" width="300px" height="150px" />
-                            <img src={tallerMacera} alt="" width="300px" height="150px" />
-                            <img src={tele13} alt="" width="300px" height="150px" />
-                            <img src={estudioEnoki} alt="" width="300px" height="150px" />
-                            <img src={fundacionGastronomiaSocial} alt="" width="300px" height="150px" />
-                        </Carousel>
                     </div>
+
                 </div>
-          
+
+            </div>
+            <div className="losColaboradores">
+                <img src={cava} alt="" width="110px" height="110px" />
+                <img src={aurora} alt="" width="110px" height="110px" />
+                <img src={comedor} alt="" width="110px" height="110px" />
+                <img src={foodies} alt="" width="110px" height="110px" />
+                <img src={restaurante} alt="" width="110px" height="110px" />
+                <img src={ambrosiaBistro} alt="" width="110px" height="110px" />
+                <img src={boa} alt="" width="110px" height="110px" />
+                <img src={cafeSanJuan} alt="" width="110px" height="110px" />
+                <img src={colab} alt="" width="110px" height="110px" />
+                <img src={caperucitaLobo} alt="" width="110px" height="110px" />
+            </div>
+            <div className="losColaboradores">
+                <img src={cultiva} alt="" width="110px" height="110px" />
+                <img src={elContenedor} alt="" width="110px" height="110px" />
+                <img src={land} alt="" width="110px" height="110px" />
+                <img src={laChimba} alt="" width="110px" height="110px" />
+                <img src={lasCondenadas} alt="" width="110px" height="110px" />
+                <img src={manoChef} alt="" width="110px" height="110px" />
+                <img src={muniAntofagasta} alt="" width="110px" height="110px" />
+                <img src={niam} alt="" width="110px" height="110px" />
+                <img src={nossoPrato} alt="" width="110px" height="110px" />
+                <img src={pebre} alt="" width="110px" height="110px" />
+            </div>
+            <div className="losColaboradores">
+
+                <img src={rossoNero} alt="" width="110px" height="110px" />
+                <img src={puertoClaro} alt="" width="110px" height="110px" />
+                <img src={socialGastronomy} alt="" width="110px" height="110px" />
+                <img src={tallerMacera} alt="" width="110px" height="110px" />
+                <img src={tele13} alt="" width="110px" height="110px" />
+                <img src={estudioEnoki} alt="" width="110px" height="110px" />
+                <img src={fundacionGastronomiaSocial} alt="" width="110px" height="110px" />
+
+            </div>
+
         </div>
 
     )
