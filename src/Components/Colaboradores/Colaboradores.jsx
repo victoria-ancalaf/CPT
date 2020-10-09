@@ -37,24 +37,27 @@ import './Colaboradores.css'
 const Colaboradores = () => {
     return (
 
-        <div className="contenedorColaboradores">
-            <div>
-                <div className="main-container px-lg-5 pt-5 mt-5 pb-5 mb-5">
+        <div className="contenedorColaboradores pt-5">
+           
+                <div className="main-container px-lg-5 pt-5 pb-5 mb-5">
                     <div className="row">
-                        <div className="mensaje">
+                        <div className="mensajeColaboradores">
                             <h1> Nuestros <strong> Colaboradores</strong></h1>
                             <p>
                                 Contamos con una alianza de colaboradores que desde sus cocinas
                                 proveen de alimento saludable y nutritivo a quienes más lo
-                                necesitan. Nada sería posible sin ellos. ¿Te gustaría unirte a
+                                necesitan. Nada sería posible sin ellos. 
+                            </p>
+                            <p>
+                                ¿Te gustaría unirte a
                                 nuestra red de colaboradores?
                             </p>
-                            <button className="btn-aprenderMas">
+                            <button className="btn-aprender">
                                 Aprender màs
                                 </button>
                         </div>
 
-                        <Carousel
+                        <Carousel className="carouselEste"
                             plugins={[
                                 'infinite'
                             ]}
@@ -79,10 +82,9 @@ const Colaboradores = () => {
                             <img src={land} alt="" width="300px" height="150px" />
 
 
-
                         </Carousel>
 
-                        <Carousel
+                        <Carousel className="carouselEste"
                             plugins={[
                                 'infinite'
                             ]}
@@ -107,7 +109,7 @@ const Colaboradores = () => {
                         </Carousel>
                     </div>
                 </div>
-            </div>
+          
         </div>
 
     )
