@@ -29,8 +29,10 @@ h4 {
 }
 
 .logoNaranjo {
+
     width: 289px;
-    height: 311px;
+    margin-left: 160px;
+    margin-top: 18px;
 }
 
 .redesSociales {
@@ -53,6 +55,12 @@ h4 {
 
 }
 
+.contacto {
+    
+    margin-top: 30px;
+    margin-right: 150px;
+}
+
 .btn-enviar {
     
     width: 128px;
@@ -66,28 +74,36 @@ h4 {
 
 .nombre, .mail {
 
-    width: 520px;
-    height: 30px;
+    width: 594px;
+    height: 51px;
+    margin-top: 10px;
+    border: 2px solid #BDBDBD;
+    border-radius: 10px;
 }
 
 
 .elmensaje {
 
-    width: 520px;
+    width: 594px;
     height: 120px;
+    margin-top: 10px;
+    border: 2px solid #BDBDBD;
+    border-radius: 10px;
 }
 
 .main-container{
+
     display: flex;
     justify-content: space-between;
-    margin-right: 3%;
 }
 
 .instagramPrueba {
+
     display: flex;
 }
 
 .enviar {
+
     inline-size: -webkit-fill-available;
     display: flex;
     justify-content: flex-end;
@@ -99,15 +115,32 @@ h4 {
 }
 
 .titulo {
+
     color: #F9F9F9;
 }
-/*
-.contenedorMuni, .contenedorRestaurante, .contenedorSociales {
 
-    margin-top: 312px;
+.contenedorMuni {
+
+    margin-left: 60px;
+    margin-top: -140px;
 }
-*/
+
+.contenedorComunicacion {
+   
+    margin-left: -216px;
+}
+
 
 .contenedorContenedor {
-    margin-top: 50px;
+    margin-top: -140px;
 }
+
+.contenedorrow {
+    margin-left: 55px;
+}
+
+.contenedorSociales, .contenedorCordinadoras {
+
+    margin-left: 60px;
+}
+
