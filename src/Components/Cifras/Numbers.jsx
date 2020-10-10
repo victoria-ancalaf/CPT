@@ -7,6 +7,21 @@ import Vectores from '../../img/Vectores.svg'
 import './Numbers.css';
 import './CountUpNumber';
 import CountUpNumber from './CountUpNumber';
+import { motion } from 'framer-motion';
+
+// const pruebitaVariants = {
+// 	hover: {
+// 		scale: [1,1.1,1,1.1,1,1.1,1]
+// 	}
+// }
+const svgVariants = {
+	hidden: { opacity: 0 },
+	visible: {
+		opacity: 1,
+		transition: { duration: 1}
+	}
+};
+
 
 
 const Numbers = () => {
@@ -27,27 +42,37 @@ const Numbers = () => {
 				<div className="icon-text">
 					<img src={Olla} alt="Comedores" />
 					<CountUpNumber className="count" end={28} duration={1.5} />
-						<p className="p-cifras-icon">Comedores <br></br>apoyados</p> 
+					<p className="p-cifras-icon">
+						Comedores <br />apoyados
+					</p>
 				</div>
 				<div className="icon-text">
-				<img src={Chef} alt="Puestos empleo" />
+					<img src={Chef} alt="Puestos empleo" />
 					<CountUpNumber className="count" end={72} duration={1.5} />
-					<p className="p-cifras-icon">Puestos de empleo<br></br>activados</p>
+					<p className="p-cifras-icon">
+						Puestos de empleo<br />activados
+					</p>
 				</div>
 				<div className="icon-text">
-				<img src={Comida} alt="Comen a diario" />
+					<img src={Comida} alt="Comen a diario" />
 					<CountUpNumber className="count" end={3.2} decimals={3} duration={1.5} />
-					<p className="p-cifras-icon">Personas comen a<br></br>diario</p>
+					<p className="p-cifras-icon">
+						Personas comen a<br />diario
+					</p>
 				</div>
 				<div className="icon-text">
-				<img src={Plato} alt="Almuerzos solidarios" />
+					<img src={Plato} alt="Almuerzos solidarios" />
 					<CountUpNumber className="count" end={160} decimals={3} duration={1.5} />
-					<p className="p-cifras-icon">Almuerzos solidarios<br></br>recaudados</p>
+					<p className="p-cifras-icon">
+						Almuerzos solidarios<br />recaudados
+					</p>
 				</div>
 			</div>
-		
-					<img src={Vectores} className="vectores" alt='Cifras CPT'></img>
-		
+
+			<motion.div variants={svgVariants} whileHover="visible" initial="hidden">
+			<img src={Vectores} className="vectores" alt='Cifras CPT'></img>
+		</motion.div>
+			
 		</div>
 	);
 };

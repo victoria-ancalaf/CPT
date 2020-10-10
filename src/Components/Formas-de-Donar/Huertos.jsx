@@ -28,7 +28,7 @@ const Huertos = () => {
 				</button>
 			</div>
 			<Modal size="lg" show={huertoShow} onHide={() => setHuertosShow(false)}>
-				<Modal.Header className="modal-header" closeButton />
+				<Modal.Header className="modal-header-huertos" closeButton />
 				<Modal.Body>
 					<p className="huertos-p1">
 						Donar terreno para <strong>huertos urbanos</strong>
@@ -39,7 +39,7 @@ const Huertos = () => {
 					</p>
 					<HuertosForm />
 				</Modal.Body>
-				<Modal.Footer />
+				<Modal.Footer className="modal-footer-huertos" />
 			</Modal>
 		</div>
 	);

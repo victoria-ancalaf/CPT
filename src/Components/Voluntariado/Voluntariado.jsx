@@ -1,6 +1,6 @@
 import React from 'react';
-import Training from './Training';
-import DonarTalento from './DonarTalento';
+import Capacitaciones from './Capacitaciones';
+import Voluntario from './Voluntario';
 import '../Formas-de-Donar/FormasDonar.css';
 
 const Voluntariado = () => {
@@ -17,8 +17,8 @@ const Voluntariado = () => {
                 <button className="btn-formas-donar">Más información</button>
 			</div>
 			<div className="fdonar-card-container">
-			<Training />
-			<DonarTalento />
+			<Capacitaciones />
+			<Voluntario />
 			</div>
 		</div>
 	);

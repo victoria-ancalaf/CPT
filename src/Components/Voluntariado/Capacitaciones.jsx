@@ -1,16 +1,16 @@
 import React, { useState } from 'react';
-import Capacitaciones from '../../img/Capacitaciones.jpg';
+import Capacitacion from '../../img/Capacitaciones.jpg';
 import Modal from 'react-bootstrap/Modal';
 import CapacitacionesForm from './CapacitacionesForm';
-import './Training.css';
+import './Capacitaciones.css';
 
-const Training = () => {
+const Capacitaciones = () => {
 	const [ trainingShow, setTrainingShow ] = useState(false);
 
 	return (
 		<div className="capacitaciones-container">
 			<div className="capacitaciones-left">
-				<img src={Capacitaciones} alt="Capacitaciones" />
+				<img src={Capacitacion} alt="Capacitaciones" />
 			</div>
 			<div className="capacitaciones-right">
 				<div className="capacitaciones-text">
@@ -29,21 +29,21 @@ const Training = () => {
 			</div>
 
 			<Modal size="lg" show={trainingShow} onHide={() => setTrainingShow(false)}>
-				<Modal.Header className="modal-header" closeButton />
+			<Modal.Header className="modal-header-capacitaciones" closeButton />
 				<Modal.Body>
 					<p className="capacitaciones-p1">
-						Donar terreno para <strong>huertos urbanos</strong>
+						Donar una hora de <strong>clases para la Comunidad</strong>
 					</p>
 					<p className="capacitaciones-p2">
-						Muchas gracias por tu interés en donar terreno para la creación de huertos<br />
-						urbanos comunitarios. Nos contactaremos contigo a la brevedad.
+						Muchas gracias por tu interés en donar parte de tu tiempo para hacer capacitaciones<br />
+						destinadas a la comunidad. Nos contactaremos contigo a la brevedad.
 					</p>
 					<CapacitacionesForm />
 				</Modal.Body>
-				<Modal.Footer />
+				<Modal.Footer className="modal-footer-capacitaciones" />
 			</Modal>
 		</div>
 	);
 };
 
-export default Training;
+export default Capacitaciones;

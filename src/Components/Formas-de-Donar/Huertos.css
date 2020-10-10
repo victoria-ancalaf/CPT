@@ -70,7 +70,7 @@
 
 /* Modal */
 
-.modal-header {
+.modal-header-huertos {
     height: 90px;
     background-image: url("../../img/huertos-header.jpg");
     background-repeat: no-repeat;
@@ -94,7 +94,7 @@
     height: 643px;
 }
 
-.modal-footer {
+.modal-footer-huertos {
     height: 91px;
     background-image: url("../../img/huertos-footer.jpg");
     background-repeat: no-repeat;

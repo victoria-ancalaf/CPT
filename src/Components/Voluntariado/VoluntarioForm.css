@@ -1,11 +1,11 @@
-.h3-huertos {
+.h3-voluntario {
 	font-family: "Roboto", sans-serif;
     color: #4f4f4f;
     width: 100%;
     padding: 0 117px;
 }
 
-.input-huertos-name {
+.input-voluntario-name {
     width: 584px;
     height: 51px;
     background: #F9F9F9;
@@ -15,9 +15,10 @@
     font-family: "Roboto", sans-serif;
     font-size: 18px;
     padding: 0 10px;
+    margin-top: 3%;
 }
 
-.input-huertos {
+.input-voluntario {
 	width: 279px;
     height: 51px;
     background: #F9F9F9;
@@ -30,6 +31,17 @@
     margin-top: 3%;
 }
 
+.input-voluntario-disp {
+    width: 324px;
+    height: 193px;
+    background: #F9F9F9;
+    border: 2px solid #BDBDBD;
+    border-radius: 10px;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    color: #4F4F4F;
+}
+
 .input-container {
     display: flex;
     flex-wrap: wrap;
@@ -37,7 +49,6 @@
 
 .personal-info {
     width: 70%;
-   
 }
 
 .left-inputs {
@@ -49,20 +60,20 @@
     padding: 0 117px;
 }
 
-.terreno {
+.disponibilidad {
     display: flex;
     flex-direction: column;
-    width: 30%; 
+    width: 30%;
 }
 
-.end-huertos {
+.end-voluntario {
     display: flex;
     justify-content: flex-end;
     align-self: baseline;
     width: 100%;
 }
 
-.btn-huertos-enviar {
+.btn-voluntario-enviar {
     width: 128px;
     height: 58px;
     background: transparent;
@@ -74,7 +85,7 @@
     font-weight: bold;
 }
 
-.btn-huertos-enviar:hover {
+.btn-voluntario-enviar:hover {
     background: #F9F9F9;
     color: #4F4F4F;
 }

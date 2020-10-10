@@ -70,9 +70,9 @@
 
 /* Modal */
 
-.modal-header {
+.modal-header-banco {
 	height: 90px;
-	background-image: url("../../img/huertos-header.jpg");
+	background-image: url("../../img/alimentos-header.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	border-bottom: none;
@@ -87,16 +87,22 @@
 .modal-content {
 	border-radius: 30px;
 	border: none;
-	background-color: #f9f9f9;
 }
+
+/* .probando {
+	background-image: url("../../img/Legumbres.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-blend-mode: overlay;
+} */
 
 .modal-body {
 	height: 643px;
 }
 
-.modal-footer {
+.modal-footer-banco {
 	height: 91px;
-	background-image: url("../../img/huertos-footer.jpg");
+	background-image: url("../../img/alimentos-footer.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	border-top: none;
@@ -104,14 +110,14 @@
 	border-bottom-left-radius: 30px;
 }
 
-.huertos-p1 {
+.banco-p1 {
 	font-family: "Roboto", sans-serif;
 	font-size: 36px;
 	color: #4f4f4f;
 	padding: 0 117px;
 }
 
-.huertos-p2 {
+.banco-p2 {
 	font-family: "Roboto", sans-serif;
 	font-size: 18px;
 	color: #4f4f4f;

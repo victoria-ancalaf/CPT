@@ -27,13 +27,18 @@ const BancoAlimentos = () => {
 				</button>
 			</div>
 			<Modal size="lg" show={bancoShow} onHide={() => setBancoShow(false)}>
-				<Modal.Header closeButton>
-					<Modal.Title>Banco de Alimentos</Modal.Title>
-				</Modal.Header>
-				<Modal.Body>
-					Dona los alimentos que te sobren en casa.
+			<Modal.Header className="modal-header-banco" closeButton />
+				<Modal.Body className="probando">
+					<p className="banco-p1">
+						Donar víveres para el <strong>Banco de Alimentos</strong>
+					</p>
+					<p className="banco-p2">
+						Muchas gracias por tu interés en donar víveres para nuestro Banco de<br />
+						Alimentos. Nos contactaremos contigo a la brevedad.
+					</p>
 					<BancoAlimentosForm />
 				</Modal.Body>
+				<Modal.Footer className="modal-footer-banco" />
 			</Modal>
 		</div>
 	);
