@@ -1,0 +1,65 @@
+.portalMensaje{
+    
+
+    
+    font-style: normal;
+    font-weight: normal;
+   
+    line-height: 56px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    color: #FFFFFF;
+
+    position: absolute;
+
+
+
+
+
+font-family: 'Roboto', sans-serif;
+	font-size: 2.5em;
+left:  118px;
+
+    top: 600px;
+   
+width: 600px;
+
+left: 118px;
+margin-bottom: 182px;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+.imagenPortal{
+  
+    
+    width: 1440px;
+    height: 1024px;
+   left: 1440px;
+    top: 0px;
+}
+
+.serColaborador{
+    background-color: slateblue;
+    width: 1440px;
+    height: 1024px;
+   left: 1440px;
+    top: 0px;
+}
+.imagenManzanas{
+    width: 1440px;
+    height: 1024px;
+   left: 1440px;
+    top: 0px;
+}

@@ -1,5 +1,5 @@
 import React from 'react'
-import iconOperaciones from '../../img/iconOperaciones.png';
+import iconOperaciones from '../../img/iconOperaciones.svg';
 import Instituciones from '../../img/Instituciones.svg';
 import Restaurant from '../../img/Restaurant.svg'
 import Transporte from '../../img/Transporte.svg'
@@ -47,8 +47,8 @@ const Operaciones = () => {
              dando trabajo a transportistas y asegurando la llegada de alimento a los sectores que más lo necesitan.</p>
              </div>
           <Carousel className="CarruselOperaciones" responsive={responsive}> 
-            <div className="col-12 logo">
-              <div className="ImagenOperaciones">
+            <div className=" tarjetasModelo">
+              <div className="ImagenOperaciones " >
               <Figure>
                 <Figure.Image
                   width={183}
@@ -64,7 +64,7 @@ const Operaciones = () => {
               </div>
             </div>
 
-            <div className="col-12 logo">
+            <div className=" tarjetasModelo">
             <div className="ImagenOperaciones">
               <Figure>
                 <Figure.Image
@@ -81,7 +81,7 @@ const Operaciones = () => {
               </div>
             </div>
 
-            <div className="col-12 logo">
+            <div className=" tarjetasModelo">
             <div className="ImagenOperaciones">
               <Figure>
                 <Figure.Image
@@ -98,7 +98,7 @@ const Operaciones = () => {
               </div>
             </div>
 
-            <div className="col-12 logo">
+            <div className="tarjetasModelo">
             <div className="ImagenOperaciones">
               <Figure>
                 <Figure.Image
@@ -115,7 +115,7 @@ const Operaciones = () => {
               </div>
             </div>
 
-            <div className="col-12 logo">
+            <div className="tarjetasModelo">
             <div className="ImagenOperaciones">
               <Figure>
                 <Figure.Image
@@ -132,7 +132,7 @@ const Operaciones = () => {
               </div>
             </div>
 
-            <div className="col-12 logo">
+            <div className="tarjetasModelo">
             <div className="ImagenOperaciones">
               <Figure>
                 <Figure.Image

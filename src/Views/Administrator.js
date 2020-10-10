@@ -1,9 +1,11 @@
 import React from 'react'
+import Login from '../Components/Administrador/Login'
 
 const Administrator = () => {
     return (
         <div>
-            <h1>Administrador</h1>
+        <Login />
+        
         </div>
     )
 }

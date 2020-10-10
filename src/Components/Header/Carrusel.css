@@ -24,8 +24,9 @@ left:  118px;
     top: 600px;
    
 width: 600px;
-height: 174px;
+
 left: 118px;
+margin-bottom: 182px;
 
 
 
@@ -40,7 +41,7 @@ left: 118px;
 .btn-ttc:active {
     width: 338px;
     height: 58px;
-    left: 119px;
+    left: 118px;
     top: 775px;
 
     font-family: Roboto;
