@@ -1,6 +1,6 @@
 import React from 'react'
 import { Carousel } from 'react-bootstrap';
-import carousel2 from '../../img/carousel2.jpg';
+import carousel from '../../img/carousel.jpg';
 import './Carrusel.css';
 import ComidaParaTodosGif3 from '../../img/ComidaParaTodosGif3.gif';
 
@@ -26,7 +26,7 @@ const Carrusel = () => {
 
         <Carousel.Item>
           <img className="imagenCarrusel2"
-            src={carousel2}
+            src={carousel}
             alt="Second slide"
           />
           <Carousel.Caption className="carouselMensaje" >

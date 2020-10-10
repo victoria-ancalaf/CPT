@@ -1,9 +1,10 @@
 import React from 'react'
+import PortalColaboradores from '../Components/PortalColaboradores/PortalColaboradores'
 
 const Partners = () => {
     return (
         <div>
-            <h1>Portal Colaboradores</h1>
+           <PortalColaboradores/>
         </div>
     )
 }

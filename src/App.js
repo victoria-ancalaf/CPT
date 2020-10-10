@@ -12,6 +12,7 @@ import {
   Switch,
   Route,
 } from "react-router-dom";
+import ViewFormAdministrador from '../src/Views/ViewFormAdministrador';
 
 
 
@@ -24,6 +25,9 @@ function App() {
         </Route>
         <Route path="/Administrador">
          <Administrator />
+        </Route>
+        <Route path="/AdministradorFormularios">
+         <ViewFormAdministrador />
         </Route>
         <Route path="/Contacto">
          <Contact />
