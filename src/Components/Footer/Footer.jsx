@@ -3,6 +3,7 @@ import logoNaranjo from '../../img/logoNaranjo.png';
 import iconInstagram from '../../img/CPT_Instagram.svg';
 import iconEmail from '../../img/CPT_Mail.svg';
 import iconWhatsapp from '../../img/CPT_Whatsapp.svg';
+import { Link } from 'react-router-dom';
 import './Footer.css'
 
 
@@ -136,7 +137,7 @@ const Footer = () => {
 
                         <p className="parrafo text-xs-center py-3">
                             &copy;{new Date().getFullYear()} Comida para todos -
-                        Todos los derechos reservados | Ingresar como Administrador
+                        Todos los derechos reservados | <Link to="/Administrador"> <p>Ingresar como Administrador</p> </Link>
                     </p>
                     </div>
                 </div>
