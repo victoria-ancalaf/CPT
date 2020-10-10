@@ -1,4 +1,4 @@
-.capacitaciones-container {
+.voluntario-container {
     display: flex;
     width: 577px;
     height: 300px;
@@ -7,43 +7,43 @@
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
   }
   
-  .capacitaciones-left {
+  .voluntario-left {
       width: 50%;
   }
   
-  .capacitaciones-left > img {
+  .voluntario-left > img {
      width: 100%;
      height: 100%;
      border-top-left-radius: 20px;
      border-bottom-left-radius: 20px;
   }
   
-  .capacitaciones-right {
+  .voluntario-right {
       width: 50%;
       display: flex;
       flex-direction: column;
       align-items: center;
   }
   
-  .capacitaciones-text {
+  .voluntario-text {
       margin-top: 5%;
   }
   
-  .capacitaciones-letter {
+  .voluntario-letter {
       font-family: "Roboto", sans-serif;
       font-weight: bold;
       font-size: 24px;
       color: #333333;
   }
   
-  .capacitaciones-letter-small {
+  .voluntario-letter-small {
       font-family: "Roboto", sans-serif;
       font-size: 18px;
       color: #333333;
       line-height: 21px;
   }
   
-  .capacitaciones-more {
+  .voluntario-more {
       font-family: "Roboto", sans-serif;
       font-weight: bold;
       font-size: 20px;
@@ -51,7 +51,7 @@
       text-decoration: underline;
   }
   
-  .btn-capacitaciones {
+  .btn-voluntario {
       width: 167px;
       height: 58px;
       border-radius: 10px;
@@ -63,16 +63,16 @@
       color: #FA6E20;
   }
   
-  .btn-capacitaciones:hover {
+  .btn-voluntario:hover {
       color: #F9F9F9;
       background: linear-gradient(180deg, #FF9029 0%, #F34B14 100%);
   }
   
   /* Modal */
   
-  .modal-header {
+  .modal-header-voluntario {
       height: 90px;
-      background-image: url("../../img/huertos-header.jpg");
+      background-image: url("../../img/voluntario-header.jpg");
       background-repeat: no-repeat;
       background-size: cover;
       border-bottom: none;
@@ -94,9 +94,9 @@
       height: 643px;
   }
   
-  .modal-footer {
+  .modal-footer-voluntario {
       height: 91px;
-      background-image: url("../../img/huertos-footer.jpg");
+      background-image: url("../../img/voluntario-footer.jpg");
       background-repeat: no-repeat;
       background-size: cover;
       border-top: none;
@@ -104,14 +104,14 @@
       border-bottom-left-radius: 30px;
   }
   
-  .capacitaciones-p1 {
+  .voluntario-p1 {
       font-family: "Roboto", sans-serif;
       font-size: 36px;
       color: #4F4F4F;
       padding: 0 117px;
   }
   
-  .capacitaciones-p2 {
+  .voluntario-p2 {
       font-family: "Roboto", sans-serif;
       font-size: 18px;
       color: #4F4F4F;
