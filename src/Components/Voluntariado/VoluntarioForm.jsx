@@ -15,6 +15,7 @@ const VoluntarioForm = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
+        const dateForm = new Date();
 
         db.collection('voluntario').add({
             name: name,
@@ -23,7 +24,8 @@ const VoluntarioForm = () => {
 			email: email,
             comuna: comuna,
             cuentanos: cuentanos,
-            disponibilidad: disponibilidad
+            disponibilidad: disponibilidad,
+            date: dateForm.toLocaleString()
         })
         .then (() => {
             alert("Enviado");

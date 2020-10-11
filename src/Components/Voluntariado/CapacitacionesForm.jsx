@@ -15,6 +15,7 @@ const CapacitacionesForm = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
+        const dateForm = new Date();
 
         db.collection('capacitaciones').add({
             name: name,
@@ -23,7 +24,8 @@ const CapacitacionesForm = () => {
 			email: email,
 			direccion: direccion,
             comuna: comuna,
-            disponibilidad: disponibilidad
+            disponibilidad: disponibilidad,
+            date: dateForm.toLocaleString()
         })
         .then (() => {
             alert("Enviado");

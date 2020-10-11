@@ -40,6 +40,7 @@ const FormulariosDonaciones = () => {
                    </ul>
                 </div>
                 <div className="col-md-6">
+                    <button onClick={() => firebase.auth().signOut()}>Sign out</button>
                     <h1>no se que poner aqui</h1>
                 </div>
             </div>

@@ -5,29 +5,33 @@ import Howtohelp from '../src/Views/Howtohelp'
 import Action2030 from '../src/Views/Action2030'
 import Partners from '../src/Views/Partners'
 import Contact from '../src/Views/Contact'
-import Administrator from '../src/Views/Administrator'
-import Forms from '../src/Views/Forms'
+import Administrador from '../src/Views/Administrador'
+import ViewFormAdministrador from '../src/Views/ViewFormAdministrador';
+import ForgotPassword from '../src/Components/Administrador/ForgotPassword'
+import { AuthProvider } from '../src/Components/Administrador/AuthContext'
 import {
   BrowserRouter as Router,
   Switch,
   Route,
 } from "react-router-dom";
-import ViewFormAdministrador from '../src/Views/ViewFormAdministrador';
+import PrivateRoute from './Components/Administrador/PrivateRoute';
 
 
 
 function App() {
   return (
+    <AuthProvider>
     <Router>
       <Switch>
-      <Route path="/Formularios">
-         <Forms />
+      <Route exact path="/">
+        <Main />
+        </Route>
+        <PrivateRoute exact path="/AdministradorFormularios" component={ViewFormAdministrador} />
+        <Route path="/Recuperar-contrasena">
+         <ForgotPassword />
         </Route>
         <Route path="/Administrador">
-         <Administrator />
-        </Route>
-        <Route path="/AdministradorFormularios">
-         <ViewFormAdministrador />
+         <Administrador />
         </Route>
         <Route path="/Contacto">
          <Contact />
@@ -45,11 +49,9 @@ function App() {
         <Route path="/Nosotros">
         <About />
         </Route>
-        <Route exact path="/">
-        <Main />
-        </Route>
       </Switch>
   </Router>
+  </AuthProvider>
   );
 }
 

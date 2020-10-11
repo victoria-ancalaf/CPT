@@ -11,13 +11,13 @@ const HuertosForm = () => {
 	const [ direccion, setDireccion ] = useState('');
 	const [ comuna, setComuna ] = useState('');
 	const [ region, setRegion ] = useState('Región');
-	const [ terreno, setTerreno] = useState('');
+	const [ terreno, setTerreno ] = useState('');
 
 	const handleSubmit = (e) => {
 		e.preventDefault();
+		const dateForm = new Date();
 
-		db
-			.collection('VoluntariosHuertos')
+		db.collection('VoluntariosHuertos')
 			.add({
 				name: name,
 				phone: phone,
@@ -25,7 +25,8 @@ const HuertosForm = () => {
 				direccion: direccion,
 				comuna: comuna,
 				region: region,
-				terreno: terreno
+				terreno: terreno,
+				date: dateForm.toLocaleString()
 			})
 			.then(() => {
 				alert('Enviado');
@@ -86,62 +87,81 @@ const HuertosForm = () => {
 							onChange={(e) => setComuna(e.target.value)}
 						/>
 
-						<select 
-						className="region-selector"
-						value={region} 
-						onChange={(e) => setRegion(e.target.value)}>
+						<select className="region-selector" value={region} onChange={(e) => setRegion(e.target.value)}>
 							<option selected value="region">
 								Región
 							</option>
-							<option value="tarapaca">I Región de Tarapacá</option>
-							<option value="antofagasta">II Región de Antofagasta</option>
-							<option value="atacama">III Región de Atacama</option>
-							<option value="coquimbo">IV Región de Coquimbo</option>
-							<option value="valparaiso">V Región de Valparaíso</option>
-							<option value="ohiggins">VI Región del Libertador Gral. Bernardo O'Higgins</option>
-							<option value="maule">VII Región del Maule</option>
-							<option value="biobio">VIII Región del BioBío</option>
-							<option value="araucania">IX Región de la Araucanía</option>
-							<option value="lagos">X Región de los Lagos</option>
-							<option value="aysen">XI Región Aysén del Gral. Carlos Ibáñez del Campo</option>
-							<option value="magallanes">XII Región de Magallanes y Antártica Chilena</option>
-							<option value="metropolitana">Región Metropolitana de Santiago</option>
-							<option value="losrios">XIV Región de los Ríos</option>
-							<option value="arica">XV Región de Arica y Parinacota</option>
-							<option value="nuble">XVI Región de Ñuble</option>
+							<option value="Región de Tarapacá">I Región de Tarapacá</option>
+							<option value="Región de Antofagasta">II Región de Antofagasta</option>
+							<option value="Región de Atacama">III Región de Atacama</option>
+							<option value="Región de Coquimbo">IV Región de Coquimbo</option>
+							<option value="Región de Valparaíso">V Región de Valparaíso</option>
+							<option value="Región de O'Higgins">
+								VI Región del Libertador Gral. Bernardo O'Higgins
+							</option>
+							<option value="Región del Maule">VII Región del Maule</option>
+							<option value="Región del BioBío">VIII Región del BioBío</option>
+							<option value="Región de la Araucanía">IX Región de la Araucanía</option>
+							<option value="Región de los Lagos">X Región de los Lagos</option>
+							<option value="Región de Aysén">XI Región Aysén del Gral. Carlos Ibáñez del Campo</option>
+							<option value="Región de Magallanes y Antártica Chilena">
+								XII Región de Magallanes y Antártica Chilena
+							</option>
+							<option value="Región Metropolitana">Región Metropolitana de Santiago</option>
+							<option value="Región de los Ríos">XIV Región de los Ríos</option>
+							<option value="Región de Arica y Parinacota">XV Región de Arica y Parinacota</option>
+							<option value="Región de Ñuble">XVI Región de Ñuble</option>
 						</select>
 					</div>
 				</div>
 				<div className="terreno">
 					<h3 className="h3-huertos">Terreno Disponible</h3>
-					<input
-							type="radio"
-							className="terreno-disponible"
-							checked={terreno === '1a5metroscuadrados'}
-							value={'1a5metroscuadrados'}
-							onChange={(e) => {setTerreno(e.target.value)}}
-						/>1 a 5 metros cuadrados
-						<input
-							type="radio"
-							className="terreno-disponible"
-							checked={terreno === '6a20metroscuadrados'}
-							value={'6a20metroscuadrados'}
-							onChange={(e) => {setTerreno(e.target.value)}}
-						/>6 a 20 metros cuadrados
-						<input
-							type="radio"
-							className="terreno-disponible"
-							checked={terreno === '20a50metroscuadrados'}
-							value={'20a50metroscuadrados'}
-							onChange={(e) => {setTerreno(e.target.value)}}
-						/>20 a 50 metros cuadrados
-						<input
-							type="radio"
-							className="terreno-disponible"
-							checked={terreno === 'Masde50metroscuadrados'}
-							value={'Masde50metroscuadrados'}
-							onChange={(e) => {setTerreno(e.target.value)}}
-						/>Más de 50 metros cuadrados
+					<div className="radio-huertos">
+						<div className="terreno-disponible">
+							<input
+								type="radio"
+								checked={terreno === '1 a 5 metros cuadrados'}
+								value={'1 a 5 metros cuadrados'}
+								onChange={(e) => {
+									setTerreno(e.target.value);
+								}}
+							/>
+							<label>1 a 5 metros cuadrados</label>
+						</div>
+						<div className="terreno-disponible">
+							<input
+								type="radio"
+								checked={terreno === '6 a 20 metros cuadrados'}
+								value={'6 a 20 metros cuadrados'}
+								onChange={(e) => {
+									setTerreno(e.target.value);
+								}}
+							/>
+							<label>6 a 20 metros cuadrados</label>
+						</div>
+						<div className="terreno-disponible">
+							<input
+								type="radio"
+								checked={terreno === '20 a 50 metros cuadrados'}
+								value={'20 a 50 metros cuadrados'}
+								onChange={(e) => {
+									setTerreno(e.target.value);
+								}}
+							/>
+							<label>20 a 50 metros cuadrados</label>
+						</div>
+						<div className="terreno-disponible">
+							<input
+								type="radio"
+								checked={terreno === 'Más de 50 metros cuadrados'}
+								value={'Más de 50 metros cuadrados'}
+								onChange={(e) => {
+									setTerreno(e.target.value);
+								}}
+							/>
+							<label>Más de 50 metros cuadrados</label>
+						</div>
+					</div>
 				</div>
 				<div className="end-huertos">
 					<button className="btn-huertos-enviar" type="submit">
