@@ -78,3 +78,15 @@
     background: #F9F9F9;
     color: #4F4F4F;
 }
+
+.radio-huertos {
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    color: #4F4F4F;
+}
+
+.terreno-disponible {
+    
+}
