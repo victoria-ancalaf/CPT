@@ -29,7 +29,7 @@ import puertoClaro from '../../img/puertoClaro.png'
 import rossoNero from '../../img/rossoNero.png'
 import socialGastronomy from '../../img/socialGastronomy.png'
 import tallerMacera from '../../img/tallerMacera.png'
-import tele13 from '../../img/tele13.png'
+import tele13 from '../../img/tele13.jpg'
 
 import './Colaboradores.css'
 
@@ -54,7 +54,7 @@ const Colaboradores = () => {
                             </p>
                         <button className="btn-aprender">
                             Aprender màs
-                                </button>
+                        </button>
                     </div>
 
                 </div>

@@ -32,7 +32,8 @@ function App() {
         <Route path="/Contacto">
          <Contact />
         </Route>
-        <Route path="/PortalColaboradores">
+       {/* <Route path="/PortalColaboradores">*/}
+       <Route path="/MainPortalColaboradores">
          <Partners />
         </Route>
         <Route path="/Accion2030">
