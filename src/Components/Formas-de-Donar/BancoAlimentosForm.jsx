@@ -15,9 +15,9 @@ const BancoAlimentos = () => {
 
 	const handleSubmit = (e) => {
 		e.preventDefault();
-
-		db
-			.collection('alimentos')
+		const dateForm = new Date();
+		
+		db.collection('alimentos')
 			.add({
 				name: name,
 				phone: phone,
@@ -25,8 +25,8 @@ const BancoAlimentos = () => {
 				direccion: direccion,
 				comuna: comuna,
 				region: region,
-				alimento: alimento
-		
+				alimento: alimento,
+				date: dateForm.toLocaleString()
 			})
 			.then(() => {
 				alert('Enviado');

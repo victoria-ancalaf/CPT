@@ -15,9 +15,9 @@ const HuertosForm = () => {
 
 	const handleSubmit = (e) => {
 		e.preventDefault();
+		const dateForm = new Date();
 
-		db
-			.collection('VoluntariosHuertos')
+		db.collection('VoluntariosHuertos')
 			.add({
 				name: name,
 				phone: phone,
@@ -25,7 +25,8 @@ const HuertosForm = () => {
 				direccion: direccion,
 				comuna: comuna,
 				region: region,
-				terreno: terreno
+				terreno: terreno,
+				date: dateForm.toLocaleString()
 			})
 			.then(() => {
 				alert('Enviado');
@@ -95,13 +96,17 @@ const HuertosForm = () => {
 							<option value="Región de Atacama">III Región de Atacama</option>
 							<option value="Región de Coquimbo">IV Región de Coquimbo</option>
 							<option value="Región de Valparaíso">V Región de Valparaíso</option>
-							<option value="Región de O'Higgins">VI Región del Libertador Gral. Bernardo O'Higgins</option>
+							<option value="Región de O'Higgins">
+								VI Región del Libertador Gral. Bernardo O'Higgins
+							</option>
 							<option value="Región del Maule">VII Región del Maule</option>
 							<option value="Región del BioBío">VIII Región del BioBío</option>
 							<option value="Región de la Araucanía">IX Región de la Araucanía</option>
 							<option value="Región de los Lagos">X Región de los Lagos</option>
 							<option value="Región de Aysén">XI Región Aysén del Gral. Carlos Ibáñez del Campo</option>
-							<option value="Región de Magallanes y Antártica Chilena">XII Región de Magallanes y Antártica Chilena</option>
+							<option value="Región de Magallanes y Antártica Chilena">
+								XII Región de Magallanes y Antártica Chilena
+							</option>
 							<option value="Región Metropolitana">Región Metropolitana de Santiago</option>
 							<option value="Región de los Ríos">XIV Región de los Ríos</option>
 							<option value="Región de Arica y Parinacota">XV Región de Arica y Parinacota</option>

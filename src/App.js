@@ -6,7 +6,6 @@ import Action2030 from '../src/Views/Action2030'
 import Partners from '../src/Views/Partners'
 import Contact from '../src/Views/Contact'
 import Administrador from '../src/Views/Administrador'
-import Forms from '../src/Views/Forms'
 import ViewFormAdministrador from '../src/Views/ViewFormAdministrador';
 import ForgotPassword from '../src/Components/Administrador/ForgotPassword'
 import { AuthProvider } from '../src/Components/Administrador/AuthContext'
@@ -26,9 +25,6 @@ function App() {
       <Switch>
       <Route exact path="/">
         <Main />
-        </Route>
-      <Route path="/Formularios">
-         <Forms />
         </Route>
         <PrivateRoute exact path="/AdministradorFormularios" component={ViewFormAdministrador} />
         <Route path="/Recuperar-contrasena">
@@ -52,7 +48,6 @@ function App() {
         <Route path="/Nosotros">
         <About />
         </Route>
-       
       </Switch>
   </Router>
   </AuthProvider>
