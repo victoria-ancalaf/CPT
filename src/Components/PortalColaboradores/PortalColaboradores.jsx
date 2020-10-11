@@ -3,8 +3,11 @@ import cocinando from '../../img/cocinando.jpg';
 import manzanas from '../../img/manzanas.jpg';
 import './PortalColaboradores.css';
 
+//import App from '../../App';
+
 const PortalColaboradores = () => {
     return (
+
         <div>
             <img className="imagenPortal"
                 src={cocinando}
@@ -46,7 +49,12 @@ const PortalColaboradores = () => {
 
 
             </div>
+            {/*<App />*/}
         </div>
+
+
+
+
     )
 }
 

@@ -7,7 +7,7 @@ const Fomentamos = () => {
 
         <div className="containerFomentamos px-lg-2  pt-2 pb-2">
             <div className="footer-meddle">
-                <div className="main-container px-lg-5 pt-5 mt-5 pb-5 mb-5">
+                <div className="contenedorFomentamos px-lg-5 pt-5 pb-5 mb-5">
                     <div className="row">
                         {/*colum 1*/}
                         <div className="col-md-6 col-sm-6 pt-5">
