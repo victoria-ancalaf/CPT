@@ -42,8 +42,8 @@ const Operaciones = () => {
 
         <div className="containerOperaciones">
           <div className="mensaje">
-          <h1>Conoce nuestro <strong> Modelo de Operaciones</strong></h1>
-          <p>Nuestro modelo de operaciones está al servicio de las áreas que buscamos potenciar, multiplicando lo recaudado, reactivando restaurantes,
+          <p className="parrafo1">Conoce nuestro <strong> Modelo de Operaciones</strong></p>
+          <p className="parrafo2">Nuestro modelo de operaciones está al servicio de las áreas que buscamos potenciar, multiplicando lo recaudado, reactivando restaurantes,
              dando trabajo a transportistas y asegurando la llegada de alimento a los sectores que más lo necesitan.</p>
              </div>
           <Carousel className="CarruselOperaciones" responsive={responsive}> 
@@ -51,16 +51,16 @@ const Operaciones = () => {
               <div className="ImagenOperaciones " >
               <Figure>
                 <Figure.Image
-                  width={183}
-                  height={183}
+                  width={165}
+                  height={140}
                   alt="iconOperaciones"
                   src={iconOperaciones}
                 />
               </Figure>
               </div>
               <div className="mensajeDonaciones">
-              <h3><strong>Donaciones por la Web</strong></h3>
-              <p>Donantes ingresan a la web y aportan <strong> $3.000 CLP </strong> destinado a un almuerzo solidario.</p>
+              <p className="parraftitulo">Donaciones por la Web</p>
+              <p className="parrafConte">Donantes ingresan a la web y aportan <strong> $3.000 CLP </strong> destinado a un almuerzo solidario.</p>
               </div>
             </div>
 
@@ -68,16 +68,16 @@ const Operaciones = () => {
             <div className="ImagenOperaciones">
               <Figure>
                 <Figure.Image
-                  width={183}
-                  height={183}
+                  width={159}
+                  height={159}
                   alt="Instituciones"
                   src={Instituciones}
                 />
               </Figure>
               </div>
               <div className="mensajeDonaciones">
-              <h3><strong>Instituciones</strong></h3>
-              <p>Tanto entidades públicas como privadas <strong>multiplicarán lo recaudado</strong>  mediante la web.</p>
+              <p className="parraftitulo" >Instituciones</p>
+              <p className="parrafConte">Tanto entidades públicas como privadas <strong>multiplicarán lo recaudado</strong>  mediante la web.</p>
               </div>
             </div>
 
@@ -85,33 +85,33 @@ const Operaciones = () => {
             <div className="ImagenOperaciones">
               <Figure>
                 <Figure.Image
-                  width={183}
-                  height={183}
+                  width={147}
+                  height={152}
                   alt="Restaurant"
                   src={Restaurant}
                 />
               </Figure>
               </div>
               <div className="mensajeDonaciones">
-              <h3><strong>Restaurantes</strong></h3>
-              <p>Lo recolectado se entrega a los <strong>restaurantes</strong> para costear <strong>personal y gastos de producción</strong>.</p>
+              <p className="parraftitulo">Restaurantes</p>
+              <p className="parrafConte">Lo recolectado se entrega a los <strong>restaurantes</strong> para costear <strong>personal y gastos de producción</strong>.</p>
               </div>
             </div>
 
             <div className="tarjetasModelo">
             <div className="ImagenOperaciones">
-              <Figure>
+              <Figure className="transporte">
                 <Figure.Image
-                  width={183}
-                  height={183}
+                  width={200}
+                  height={200}
                   alt="Transporte"
                   src={Transporte}
                 />
               </Figure>
               </div>
               <div className="mensajeDonaciones">
-              <h3><strong>Transporte del Alimento</strong></h3>
-              <p>Un equipo de <strong>transporte escolar</strong>  estará a cargo de transportar los almuerzos solidarios.</p>
+              <p className="parraftitulo">Transporte del Alimento</p>
+              <p className="parrafConte">Un equipo de <strong>transporte escolar</strong>  estará a cargo de transportar los almuerzos solidarios.</p>
               </div>
             </div>
 
@@ -119,16 +119,16 @@ const Operaciones = () => {
             <div className="ImagenOperaciones">
               <Figure>
                 <Figure.Image
-                  width={183}
-                  height={183}
+                  width={147}
+                  height={147}
                   alt="Distribucion"
                   src={Distribucion}
                 />
               </Figure>
               </div>
               <div className="mensajeDonaciones">
-              <h3><strong>Distribución</strong></h3>
-              <p>El alimento cocinado en restaurantes de la alianza llega a comedores en  <strong>sectores vulnerables</strong>.</p>
+              <p className="parraftitulo">Distribución</p>
+              <p className="parrafConte">El alimento cocinado en restaurantes de la alianza llega a comedores en  <strong>sectores vulnerables</strong>.</p>
               </div>
             </div>
 
@@ -136,16 +136,16 @@ const Operaciones = () => {
             <div className="ImagenOperaciones">
               <Figure>
                 <Figure.Image
-                  width={183}
-                  height={183}
+                  width={167}
+                  height={167}
                   alt="Apadrinamiento"
                   src={Apadrinamiento}
                 />
               </Figure>
               </div>
               <div className="mensajeDonaciones">
-              <h3><strong>Apadrinamiento</strong></h3>
-              <p>El restaurant <strong>apadrina a una comunidad</strong> y capacita en materia de <strong>alimentación saludable</strong>.</p>
+              <p className="parraftitulo">Apadrinamiento</p>
+              <p className="parrafConte">El restaurant <strong>apadrina a una comunidad</strong> y capacita en materia de <strong>alimentación saludable</strong>.</p>
               </div>
             </div>
           </Carousel>
