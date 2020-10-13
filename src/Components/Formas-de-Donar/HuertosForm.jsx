@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import './HuertosForm.css';
 import { firebase } from '../../firebase';
+import { Form } from 'react-bootstrap';
+import swal from 'sweetalert';
 
 const db = firebase.firestore();
 
@@ -13,6 +15,7 @@ const HuertosForm = () => {
 	const [ region, setRegion ] = useState('Región');
 	const [ terreno, setTerreno ] = useState('');
 
+	
 	const handleSubmit = (e) => {
 		e.preventDefault();
 		const dateForm = new Date();
@@ -29,7 +32,8 @@ const HuertosForm = () => {
 				date: dateForm.toLocaleString()
 			})
 			.then(() => {
-				alert('Enviado');
+				swal("Good job!", "You clicked the button!", "success");
+				
 			})
 			.catch((error) => {
 				alert(error.message);
@@ -43,6 +47,7 @@ const HuertosForm = () => {
 		setRegion('');
 	};
 
+
 	return (
 		<form className="form-container" onSubmit={handleSubmit}>
 			<div className="input-container">
@@ -52,39 +57,44 @@ const HuertosForm = () => {
 					</div>
 
 					<div className="left-inputs">
-						<input
+						<Form.Control
 							className="input-huertos-name"
 							placeholder="Nombre Completo"
 							value={name}
 							onChange={(e) => setName(e.target.value)}
+							required
 						/>
 
-						<input
+						<Form.Control
 							className="input-huertos"
 							placeholder="Teléfono"
 							value={phone}
 							onChange={(e) => setPhone(e.target.value)}
+							required
 						/>
 
-						<input
+						<Form.Control
 							className="input-huertos"
 							placeholder="E-mail"
 							value={email}
 							onChange={(e) => setEmail(e.target.value)}
+							required
 						/>
 
-						<input
+						<Form.Control
 							className="input-huertos"
 							placeholder="Dirección"
 							value={direccion}
 							onChange={(e) => setDireccion(e.target.value)}
+							required
 						/>
 
-						<input
+						<Form.Control
 							className="input-huertos"
 							placeholder="Comuna"
 							value={comuna}
 							onChange={(e) => setComuna(e.target.value)}
+							required
 						/>
 
 						<select className="region-selector" value={region} onChange={(e) => setRegion(e.target.value)}>
@@ -115,7 +125,7 @@ const HuertosForm = () => {
 					</div>
 				</div>
 				<div className="terreno">
-					<h3 className="h3-huertos">Terreno Disponible</h3>
+					<h3 className="h3-huertos-terreno">Terreno Disponible</h3>
 					<div className="radio-huertos">
 						<div className="terreno-disponible">
 							<input

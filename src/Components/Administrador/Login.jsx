@@ -3,7 +3,7 @@ import { AuthContext } from "./AuthContext"
 import { Form, Button, Card, Container } from 'react-bootstrap'
 import { withRouter, Redirect } from 'react-router'
 import { firebase} from '../../firebase'
-
+import './Login.css'
 
 const Login = ({history}) => {
     const handleLogin = useCallback(
@@ -28,40 +28,37 @@ const Login = ({history}) => {
     }
     
     return (
-        <Container 
-            className="d-flex align-items-center justify-content-center"
-            style={{ minHeight:"100vh"}}>
-                <div className="w-100" style={{ maxWidth: "400px"}}>
-        <Card>
-            <Card.Body>
-                <h2 className="text-center mb-4">Ingresar</h2>     
+        <Container className="container-login">
+        <Card className="card-login">
+            <Card.Body className="w-553px h-519px">
+                <h2 className="text-login">Ingresar</h2>     
                 <Form onSubmit={handleLogin}>
                     <Form.Group>
-                        <Form.Label>Correo Electrónico</Form.Label>
+                        <Form.Label className="text-login-label">Correo Electrónico</Form.Label>
                         <Form.Control 
+                        className="login-admin-input"
                         name="email"
                         type="email" 
-                        placeholder="Ingrese email"
+                        placeholder="Ingresa tu correo"
                         required />
                     </Form.Group>
                     <Form.Group>
-                        <Form.Label>Contraseña</Form.Label>
+                        <Form.Label className="text-login-label">Contraseña</Form.Label>
                         <Form.Control 
+                        className="login-admin-input"
                         name="password"
                         type="password" 
-                        placeholder="Ingrese contraseña"
+                        placeholder="Ingresa tu contraseña"
                         required />
                     </Form.Group>
-                    <Button  className="w-100" type="submit">
+                    <div className="entrar-panel">
+                    <Button className="btn-admin-login" type="submit">
                         Entrar a Panel
-                        </Button>
+                    </Button>
+                    </div>
                 </Form>
-                <div className="w-100 text-center mt-3">
-            {/* <Link to="/Recuperar-contrasena">Forgot Password?</Link> */}
-          </div>
             </Card.Body>
         </Card> 
-        </div>
             </Container>
     )
 }

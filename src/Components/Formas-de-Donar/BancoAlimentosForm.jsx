@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { firebase } from '../../firebase';
 import './BancoAlimentosForm.css';
+import { Form } from 'react-bootstrap';
 
 const db = firebase.firestore();
 
@@ -11,7 +12,8 @@ const BancoAlimentos = () => {
 	const [ direccion, setDireccion ] = useState('');
 	const [ comuna, setComuna ] = useState('');
 	const [ region, setRegion ] = useState('Región');
-	const [alimento, setAlimento] = useState ('');
+	const [alimento, setAlimento] = useState ({perecedero: false, noPerecedero: false, materiaPrima: false});
+	
 
 	const handleSubmit = (e) => {
 		e.preventDefault();
@@ -36,8 +38,23 @@ const BancoAlimentos = () => {
 			});
 
 		setName('');
+		setPhone('');
 		setEmail('');
+		setDireccion('');
+		setComuna('');
+		
+
+
+		
 	};
+
+	const handleChange = (e) => {
+			const value = e.target.type === "checkbox" ? e.target.checked : e.target.value;
+			setAlimento({
+				...alimento,
+				[e.target.name]: value
+			});
+	}
 
 	return (
 		<form className="form-container" onSubmit={handleSubmit}>
@@ -48,39 +65,44 @@ const BancoAlimentos = () => {
 					</div>
 
 					<div className="left-inputs">
-						<input
+						<Form.Control
 							className="input-banco-name"
 							placeholder="Nombre Completo"
 							value={name}
 							onChange={(e) => setName(e.target.value)}
+							required
 						/>
 
-						<input
+						<Form.Control
 							className="input-banco"
 							placeholder="Teléfono"
 							value={phone}
 							onChange={(e) => setPhone(e.target.value)}
+							required
 						/>
 
-						<input
+						<Form.Control
 							className="input-banco"
 							placeholder="E-mail"
 							value={email}
 							onChange={(e) => setEmail(e.target.value)}
+							required
 						/>
 
-						<input
+						<Form.Control
 							className="input-banco"
 							placeholder="Dirección"
 							value={direccion}
 							onChange={(e) => setDireccion(e.target.value)}
+							required
 						/>
 
-						<input
+						<Form.Control
 							className="input-banco"
 							placeholder="Comuna"
 							value={comuna}
 							onChange={(e) => setComuna(e.target.value)}
+							required
 						/>
 
 						<select className="region-selector" value={region} onChange={(e) => setRegion(e.target.value)}>
@@ -107,25 +129,35 @@ const BancoAlimentos = () => {
 					</div>
 				</div>
 				<div className="tipo-alimento">
-					<h3 className="h3-banco">Tipo de Alimentos</h3>
+					<h3 className="h3-banco-disp">Tipo de Alimentos</h3>
 				<div className="check-alimento">
+					<div className="alimento-checkbox">
 				<input 
 				type="checkbox"
-				checked={alimento}
-				onChange={(e) => {setAlimento(e.target.checked)}}
-				/>Alimento perecedero<br></br>refrigerado y congelado
-
+				name="perecedero"
+				checked={alimento.perecedero}
+				onChange={handleChange}
+				/> 
+				<label>Alimento perecedero<br></br>refrigerado y congelado</label>
+				</div>
+				<div className="alimento-checkbox">
 				<input 
 				type="checkbox"
-				checked={alimento}
-				onChange={(e) => {setAlimento(e.target.checked)}}
-				/>Alimento no perecedero<br></br>(sellado)
-
+				name="noPerecedero"
+				checked={alimento.noPerecedero}
+				onChange={handleChange}
+				/> 
+				<label>Alimento no perecedero<br></br>(sellado)</label>
+				</div>
+				<div className="alimento-checkbox">
 				<input 
 				type="checkbox"
-				checked={alimento}
-				onChange={(e) => {setAlimento(e.target.checked)}}
-				/>Materias primas y productos<br></br>semielaborados
+				name="materiaPrima"
+				checked={alimento.materiaPrima}
+				onChange={handleChange}
+				/>
+				<label>Materias primas y productos<br></br>semielaborados</label>
+				</div>
 				</div>
 				</div>
 				<div className="end-banco">
