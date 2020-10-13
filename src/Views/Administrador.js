@@ -1,20 +1,24 @@
 import React from 'react'
 import Login from '../Components/Administrador/Login'
-import { Container } from 'react-bootstrap'
+import Navbar from '../../src/Components/Navbar/Navbar'
+import '../Styles/Administrador.css'
 
 
 const Administrador = () => {
     return (
-        <div>
-            
-            <Container 
-            className="d-flex align-items-center justify-content-center"
-            style={{ minHeight:"100vh"}}>
-                <div className="w-100" style={{ maxWidth: "400px"}}>
+        <div className="administrador-container">
+            <Navbar />
+            <div className="admin-left-right">
+            <div className="admin-left">
+                <p className="admin-text">
+                    Bienvenido a <strong>Panel de<br></br>
+                    Administración</strong>
+                </p>
+            </div>
+            <div className="admin-right">
                 <Login />
-                </div>
-            </Container>
-           
+            </div>
+            </div>
         </div>
     )
 }

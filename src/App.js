@@ -7,7 +7,6 @@ import Partners from '../src/Views/Partners'
 import Contact from '../src/Views/Contact'
 import Administrador from '../src/Views/Administrador'
 import ViewFormAdministrador from '../src/Views/ViewFormAdministrador';
-import ForgotPassword from '../src/Components/Administrador/ForgotPassword'
 import { AuthProvider } from '../src/Components/Administrador/AuthContext'
 import {
   BrowserRouter as Router,
@@ -15,6 +14,7 @@ import {
   Route,
 } from "react-router-dom";
 import PrivateRoute from './Components/Administrador/PrivateRoute';
+import Transparency from '../src/Views/Transparency';
 
 
 
@@ -27,9 +27,6 @@ function App() {
         <Main />
         </Route>
         <PrivateRoute exact path="/AdministradorFormularios" component={ViewFormAdministrador} />
-        <Route path="/Recuperar-contrasena">
-         <ForgotPassword />
-        </Route>
         <Route path="/Administrador">
          <Administrador />
         </Route>
@@ -37,8 +34,10 @@ function App() {
          <Contact />
         </Route>
         <Route path="/PortalColaboradores">
-       {/* <Route path="/MainPortalColaboradores">*/}
          <Partners />
+        </Route>
+        <Route path="/Transparencia">
+         <Transparency />
         </Route>
         <Route path="/Accion2030">
          <Action2030 />

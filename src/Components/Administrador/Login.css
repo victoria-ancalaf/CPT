@@ -1,0 +1,72 @@
+.container-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 553px;
+    height: 519px;
+}
+
+.card-login {
+    background-color: #F9F9F9;
+    opacity: 0.9;
+    border-radius: 20px;
+    width: 553px;
+    height: 519px;
+}
+
+.text-login {
+    text-align: center;
+    margin-bottom: 41px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    color: #333333;
+}
+
+.text-login-label {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #333333;
+}
+
+.login-admin-input {
+    width: 453px;
+    height: 51px;
+    border: 2px solid #BDBDBD;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #4F4F4F;
+    background: #FFF;
+}
+
+.card-body {
+    padding: 2.25rem;
+}
+
+.entrar-panel {
+    display: flex;
+    justify-content: center;
+    padding: 10%;
+}
+
+.btn-admin-login {
+    width: 211px;
+    height: 58px;
+    border: 2px solid #FA6E20;
+    border-radius: 10px;
+    background-color: transparent;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #FA6E20;
+    align-self: center;
+}
+
+.btn-admin-login:hover{
+    cursor: pointer;
+    background: linear-gradient(180deg, #FF9029 0%, #F34B14 100%);
+    border: none;
+    color: #F9F9F9;
+}

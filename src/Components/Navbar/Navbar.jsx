@@ -2,19 +2,18 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Navbar.css';
 import LogoCPT from '../../img/Logo_comidaparatodos_blanco.png';
-import { Link } from 'react-router-dom';
-import { animateScroll as scroll } from 'react-scroll';
+import { Link, NavLink } from 'react-router-dom';
+
 
 const Navbar = () => {
 	
-	const toggleHome = () => {
-		scroll.scrollToTop();
-	};
-
+	
 	return (
 		<header className="navbar">
 			<div className="containerNavbar">
-				<img src={LogoCPT} onClick={toggleHome} alt="Comida para todos" />
+				<NavLink to="/">
+				<img className="img-nav-logo" src={LogoCPT} alt="Comida para todos" />
+				</NavLink>
 				<ul className="navLinks">
 					<Link to="/Nosotros">
 						<li className="list-navbar">Nosotros</li>
@@ -22,16 +21,17 @@ const Navbar = () => {
 					<Link to="/ComoAyudar">
 						<li className="list-navbar">Cómo Ayudar</li>
 					</Link>
+					<Link to="/Transparencia">
+						<li className="list-navbar">Transparencia</li>
+					</Link>
 					<Link to="/Accion2030">
 						<li className="list-navbar">Acción 2030</li>
 					</Link>
 					<Link to="/PortalColaboradores">
-						<li className="list-navbar">Portal Colaboradores</li>
-					</Link>
-					<Link to="/Contacto">
-						<li className="list-navbar">Contacto</li>
+						<li className="list-navbar">Colaboradores</li>
 					</Link>
 				</ul>
+				<button className="btn-nav-donar">Donar</button>
 			</div>
 		</header>
 	);

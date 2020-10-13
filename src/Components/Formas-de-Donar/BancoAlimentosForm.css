@@ -15,7 +15,7 @@
     font-family: "Roboto", sans-serif;
     font-size: 18px;
     padding: 0 10px;
-    margin-top: 3%;
+    margin-top: 4%;
 }
 
 .input-banco {
@@ -28,7 +28,7 @@
     font-family: "Roboto", sans-serif;
     font-size: 18px;
     padding: 0 10px;
-    margin-top: 3%;
+    margin-top: 4%;
 }
 
 .input-banco-disp {
@@ -42,28 +42,43 @@
     color: #4F4F4F;
 }
 
+.region-selector{
+    width: 584px;
+    height: 51px;
+    background: #F9F9F9;
+    border: 2px solid #BDBDBD;
+    border-radius: 10px;
+    color: #4F4F4F;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    padding: 0 10px;
+    margin-top: 4%;
+    cursor: pointer;
+}
+
 .input-container {
     display: flex;
     flex-wrap: wrap;
 }
 
 .personal-info {
-    width: 70%;
+    width: 60%;
 }
 
 .left-inputs {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 0 117px;
+    padding-left: 117px;
 }
 
 .tipo-alimento {
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 40%;
+    padding-left: 43px;
 }
 
 .end-banco {
@@ -71,6 +86,8 @@
     justify-content: flex-end;
     align-self: baseline;
     width: 100%;
+    padding-right: 117px;
+    padding-top: 34px;
 }
 
 .btn-banco-enviar {
@@ -86,8 +103,9 @@
 }
 
 .btn-banco-enviar:hover {
-    background: #F9F9F9;
-    color: #4F4F4F;
+    background: linear-gradient(180deg, #FF9029 0%, #F34B14 100%);
+    color: #F9F9F9;
+    border: none;
 }
 
 .check-alimento {
@@ -96,4 +114,15 @@
     font-family: "Roboto", sans-serif;
     font-size: 18px;
     color: #4F4F4F;
+}
+
+.h3-banco-disp {
+    font-family: "Roboto", sans-serif;
+    color: #4f4f4f;
+    width: 100%;
+}
+
+.alimento-checkbox > label{
+    margin-left: 4%;
+    margin-top: 7%;
 }

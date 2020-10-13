@@ -1,0 +1,35 @@
+.administrador-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: url(../../src/img/equipo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.admin-left-right {
+    display: flex;
+    min-height: 100vh;
+}
+
+.admin-left {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 17%;
+}
+
+.admin-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    color: #F9F9F9;
+}
+
+.admin-right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
