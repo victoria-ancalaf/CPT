@@ -1,20 +1,20 @@
 import React from 'react'
-import tomates from '../../img/tomates.jpg'
-import './SerColaborador.css';
+import masas from '../../img/Masas.jpg'
+import './Sumate.css';
 
 
-const SerColaborador = () => {
+const Sumate = () => {
     return (
-        <div className="containerSerColaborador pt-5">
-            <div className="serColaborador px-lg-5 pt-5 pb-5 mb-5">
+        <div className="containerSumate pt-5">
+            <div className="sumatepx-lg-5 pt-5 pb-5 mb-5">
                 <div className="row">
-                    <div className="tituloColaborador col-md-6 col-sm-6 pt-5">
-                        <h1> Què es <strong>Ser Colaborador</strong></h1>
-                        <div className="msjSerColaborador">
+                    <div className="tituloSumate col-md-6 col-sm-6 pt-5">
+                        <h1> Sumate <strong>al equipo</strong></h1>
+                        <div className="msjSumate">
                             <ul className="list-unstyled">
-                                Los colaboradores son restaurantes que aportan con la <strong>elaboración <br />
-                                de los almuerzos solidarios</strong>, financiando los gastos de producción <br />
-                                mediante las donaciones. Detrás de cada plato servido hay:
+                            Si tienes un emprendimiento del rubro gastronómico y quieres <br />
+                            aportar desde tu vereda, esta es tu oportunidad. <strong>Escribamos <br />
+                            juntos la receta para un mejor país.</strong>
                             </ul>
                         </div>
                     </div>
@@ -50,11 +50,11 @@ const SerColaborador = () => {
                         </ul>
                     </div>
 
-                    <div className="contenedorTomates">
+                    <div className="contenedorMasas">
                         <ul className="list-unstyled">
                             <img
-                                className="imgTomates"
-                                src={tomates} alt=""
+                                className="imgMasas"
+                                src={masas} alt=""
                             />
 
                         </ul>
@@ -66,4 +66,4 @@ const SerColaborador = () => {
     )
 }
 
-export default SerColaborador
+export default Sumate

@@ -6,6 +6,8 @@ import PortalColaboradores from '../Components/PortalColaboradores/PortalColabor
 import SerColaborador from '../Components/PortalColaboradores/SerColaborador.jsx'
 import Colaboradores from '../Components/Colaboradores/Colaboradores.jsx'
 import '../Styles/Main.css';
+import Capacidades from '../Components/PortalColaboradores/Capacidades';
+import Sumate from '../Components/PortalColaboradores/Sumate'
 
 const Partners = () => {
     return (
@@ -17,6 +19,12 @@ const Partners = () => {
                 </Slide>
                 <Slide>
                     <SerColaborador />
+                </Slide>
+                <Slide>
+                    <Capacidades />
+                </Slide>
+                <Slide>
+                    <Sumate />
                 </Slide>
                 <Slide>
                     <Colaboradores />
