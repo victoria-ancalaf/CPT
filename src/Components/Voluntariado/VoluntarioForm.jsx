@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { firebase } from '../../firebase';
 import './VoluntarioForm.css';
+import { Form } from 'react-bootstrap';
 
 const db = firebase.firestore();
 
@@ -35,7 +36,12 @@ const VoluntarioForm = () => {
         });
 
         setName('');
+        setBday('');
+        setPhone('');
         setEmail('');
+        setComuna('');
+        setCuentanos('');
+        setDisponibilidad('');
     };
 
     return (
@@ -47,55 +53,60 @@ const VoluntarioForm = () => {
                 </div>
                 
                 <div className="left-inputs">
-                <input
+                <Form.Control
                     className="input-voluntario-name"
                     placeholder="Nombre Completo"
                     value={name}
                     onChange={(e) => setName(e.target.value)}
+                    required
                 />
 
-                <input
-                    type="date"
-                    className="input-voluntario-bday"
+                <Form.Control
+                    className="input-voluntario"
                     placeholder="Fecha de Nacimiento"
                     value={bday}
                     onChange={(e) => setBday(e.target.value)}
-                />
+                    required
+               />
 
-                <input
+                <Form.Control
                     className="input-voluntario"
                     placeholder="Teléfono"
                     value={phone}
                     onChange={(e) => setPhone(e.target.value)}
-                />
+                    required
+               />
 
-                <input
+                <Form.Control
                     className="input-voluntario"
                     placeholder="E-mail"
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
+                    required
                 />
 
 
-                <input
+                <Form.Control
                     className="input-voluntario"
                     placeholder="Comuna"
                     value={comuna}
                     onChange={(e) => setComuna(e.target.value)}
+                    required
                 />
 
-                <input
+                <Form.Control
                     className="input-voluntario-name"
                     placeholder="Cuéntanos un poco de ti para conocerte"
                     value={cuentanos}
                     onChange={(e) => setCuentanos(e.target.value)}
+                    required
                 />              
             
                 </div>
             </div>
             <div className="disponibilidad">
-            <h3 className="h3-voluntario">Disponibilidad</h3>
-            <p>Nuestro equipo trabaja de <strong>Lunes a<br></br>
+            <h3 className="h3-voluntario-disp">Disponibilidad</h3>
+            <p className="p-voluntariado-disp">Nuestro equipo trabaja de <strong>Lunes a<br></br>
             Domingo</strong> de <strong>11.00</strong> a <strong>18.00 hrs.</strong></p>
             <textarea
                     className="input-voluntario-disp"

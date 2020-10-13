@@ -15,7 +15,20 @@
     font-family: "Roboto", sans-serif;
     font-size: 18px;
     padding: 0 10px;
-    margin-top: 3%;
+    margin-top: 4%;
+}
+
+.input-voluntario-bday {
+    width: 279px;
+    height: 51px;
+    background: #F9F9F9;
+    border: 2px solid #BDBDBD;
+    border-radius: 10px;
+    color: #4F4F4F;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    padding: 0 10px;
+    margin-top: 4%;
 }
 
 .input-voluntario {
@@ -28,7 +41,7 @@
     font-family: "Roboto", sans-serif;
     font-size: 18px;
     padding: 0 10px;
-    margin-top: 3%;
+    margin-top: 4%;
 }
 
 .input-voluntario-disp {
@@ -40,6 +53,7 @@
     font-family: "Roboto", sans-serif;
     font-size: 18px;
     color: #4F4F4F;
+    resize: none;
 }
 
 .input-container {
@@ -48,22 +62,30 @@
 }
 
 .personal-info {
-    width: 70%;
+    width: 60%;
 }
 
 .left-inputs {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 0 117px;
+    padding-left: 117px;
 }
 
 .disponibilidad {
     display: flex;
     flex-direction: column;
-    width: 30%;
+    justify-content: space-around;
+    width: 40%;
+    padding-left: 43px;
+}
+
+.p-voluntariado-disp {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    color: #4f4f4f;
 }
 
 .end-voluntario {
@@ -71,6 +93,8 @@
     justify-content: flex-end;
     align-self: baseline;
     width: 100%;
+    padding-right: 117px;
+    padding-top: 34px;
 }
 
 .btn-voluntario-enviar {
@@ -86,6 +110,13 @@
 }
 
 .btn-voluntario-enviar:hover {
-    background: #F9F9F9;
-    color: #4F4F4F;
+    background: linear-gradient(180deg, #FF9029 0%, #F34B14 100%);
+    color: #F9F9F9;
+    border: none;
+}
+
+.h3-voluntario-disp{
+    font-family: "Roboto", sans-serif;
+    color: #4f4f4f;
+    width: 100%;
 }

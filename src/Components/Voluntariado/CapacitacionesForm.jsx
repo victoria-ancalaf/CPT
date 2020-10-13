@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { firebase } from '../../firebase';
 import './CapacitacionesForm.css'
+import { Form } from 'react-bootstrap';
+
 
 const db = firebase.firestore();
 
@@ -35,7 +37,12 @@ const CapacitacionesForm = () => {
         });
 
         setName('');
+        setProfesion('');
+        setPhone('');
         setEmail('');
+        setDireccion('');
+        setComuna('');
+        setDisponibilidad('');
         
     };
 
@@ -48,46 +55,52 @@ const CapacitacionesForm = () => {
                 </div>
                 
                 <div className="left-inputs">
-                <input
+                <Form.Control
                     className="input-capacitaciones-name"
                     placeholder="Nombre Completo"
                     value={name}
                     onChange={(e) => setName(e.target.value)}
-                />
+                    required
+               />
 
-                <input
+                <Form.Control
                     className="input-capacitaciones-name"
                     placeholder="Profesión/Oficio"
                     value={profesion}
                     onChange={(e) => setProfesion(e.target.value)}
+                    required
                 />
 
-                <input
+                <Form.Control
                     className="input-capacitaciones"
                     placeholder="Teléfono"
                     value={phone}
                     onChange={(e) => setPhone(e.target.value)}
+                    required
                 />
 
-                <input
+                <Form.Control
                     className="input-capacitaciones"
                     placeholder="E-mail"
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
+                    required
                 />
 
-                <input
+                <Form.Control
                     className="input-capacitaciones"
                     placeholder="Dirección"
                     value={direccion}
                     onChange={(e) => setDireccion(e.target.value)}
+                    required
                 />
 
-                <input
+                <Form.Control
                     className="input-capacitaciones"
                     placeholder="Comuna"
                     value={comuna}
                     onChange={(e) => setComuna(e.target.value)}
+                    required
                 />
 
               
@@ -95,8 +108,8 @@ const CapacitacionesForm = () => {
                 </div>
             </div>
             <div className="disponibilidad">
-            <h3 className="h3-capacitaciones">Disponibilidad</h3>
-            <p>Nuestro equipo trabaja de <strong>Lunes a<br></br>
+            <h3 className="h3-capacitaciones-disp">Disponibilidad</h3>
+            <p className="p-capacitaciones-disp">Nuestro equipo trabaja de <strong>Lunes a<br></br>
             Domingo</strong> de <strong>11.00</strong> a <strong>18.00 hrs.</strong></p>
             <textarea
                     className="input-capacitaciones-disp"

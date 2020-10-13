@@ -3,26 +3,10 @@ import Plato from '../../img/Plato_Corazon.svg';
 import Comida from '../../img/Comida-Sana.svg';
 import Chef from '../../img/Chef.svg';
 import Olla from '../../img/Olla.svg';
-import Vectores from '../../img/Vectores.svg'
+import Vectores from '../../img/Vectores.svg';
 import './Numbers.css';
 import './CountUpNumber';
 import CountUpNumber from './CountUpNumber';
-import { motion } from 'framer-motion';
-
-// const pruebitaVariants = {
-// 	hover: {
-// 		scale: [1,1.1,1,1.1,1,1.1,1]
-// 	}
-// }
-const svgVariants = {
-	hidden: { opacity: 0 },
-	visible: {
-		opacity: 1,
-		transition: { duration: 1}
-	}
-};
-
-
 
 const Numbers = () => {
 	return (
@@ -69,10 +53,7 @@ const Numbers = () => {
 				</div>
 			</div>
 
-			<motion.div variants={svgVariants} whileHover="visible" initial="hidden">
-			<img src={Vectores} className="vectores" alt='Cifras CPT'></img>
-		</motion.div>
-			
+			<img src={Vectores} className="vectores" alt="Cifras CPT" />
 		</div>
 	);
 };
