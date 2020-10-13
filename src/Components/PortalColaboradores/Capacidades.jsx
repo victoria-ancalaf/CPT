@@ -1,5 +1,9 @@
 import React from 'react'
 import './Capacidades.css';
+import Nutricion from '../../img/Nutricion.svg'
+import barras from '../../img/barras.svg'
+import planeta from '../../img/planeta.svg'
+import manoEstrellas from '../../img/manoEstrellas.svg'
 
 
 
@@ -19,6 +23,71 @@ const Capacidades = () => {
                                     de las comunas vulnerables beneficiarias reciban capacitación.
                             </li>
                             </ul>
+                        </div>
+                        <div className="logosCapacidades">
+                            <div className="logoNutricion">
+                                <ul className="list-unstyled">
+                                    <img
+                                        className="imgNutricion"
+                                        src={Nutricion} alt=""
+                                    />
+
+                                </ul>
+                            </div>
+
+                            <div className="logoBarras">
+                                <ul className="list-unstyled">
+                                    <img
+                                        className="imgBarras"
+                                        src={barras} alt=""
+                                    />
+
+                                </ul>
+                            </div>
+
+                            <div className="logoPlaneta">
+                                <ul className="list-unstyled">
+                                    <img
+                                        className="imgPlaneta"
+                                        src={planeta} alt=""
+                                    />
+
+                                </ul>
+                            </div>
+
+                            <div className="logoManoEstrellas">
+                                <ul className="list-unstyled">
+                                    <img
+                                        className="imgManoEstrellas"
+                                        src={manoEstrellas} alt=""
+                                    />
+
+                                </ul>
+                            </div>
+
+                        </div>
+                        <div className="titulosImagenes">
+                            <div className="alimentacion">
+                                {/*<ul className="list-unstyled">*/}
+                                    <h1>Alimentaciòn<br />Saludable</h1>
+                                {/*</ul>*/}
+                            </div>
+                            <div className="barras">
+                                <ul className="list-unstyled">
+                                    <h1>Emprendimiento</h1>
+                                </ul>
+                            </div>
+                            <div className="permaCultura">
+                                <ul className="list-unstyled">
+                                    <h1>Permacultura</h1>
+                                </ul>
+                            </div>
+                            <div className="buenasPracticas">
+                                <ul className="list-unstyled">
+                                    <h1>Buenas Pràcticas</h1>
+                                </ul>
+                            </div>
+
                         </div>
                     </div>
                 </div>

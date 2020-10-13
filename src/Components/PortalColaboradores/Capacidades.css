@@ -4,7 +4,6 @@
     height: 100vh;
     background-image: url("../../img/manzanas.jpg");
 
-    
 }
 
 .msjCapacidades {
@@ -27,4 +26,40 @@
 .capacidades {
 
     margin-top: 100px;
+}
+
+.imgNutricion {
+
+    margin-left: -48%;
+}
+
+.imgBarras {
+
+    margin-left: 40%;
+
+}
+
+.imgPlaneta {
+
+    margin-left: 120%;
+}
+
+.imgManoEstrellas {
+
+    margin-left: 185%;
+}
+
+.logosCapacidades {
+
+    display: flex;
+    justify-content: space-around;
+    margin-left: 60%;
+    margin-top: 30%;
+}
+
+.titulosImagenes {
+
+    display: flex;
+    justify-content: space-around;
+    margin-left: 80%;
 }
