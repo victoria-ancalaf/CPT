@@ -4,9 +4,9 @@ import { animateScroll as scroll } from 'react-scroll';
 import LogoCPT from '../../../img/Logo_comidaparatodos_blanco.png';
 import Salir from '../../../img/Salir.svg';
 import IconMensaje from '../../../img/IconMensaje.svg'
-//import Campana from '../../img/Campana.svg';
-//import Settings from '../../img/Settings.svg';
-//import Search from '../../img/Search.svg';
+import IconCampana from '../../../img/IconCampana.svg';
+import IconSettings from '../../../img/IconSettings.svg';
+import IconSearch from '../../../img/IconSearch.svg';
 import './NavBarAdmin.css'
 import {firebase} from '../../../firebase'
 
@@ -18,14 +18,14 @@ const NavBarAdmin = () => {
         <header className="navbar">
 			<div className="containerNavAdmin">
 				<img className="logoNav"  src={LogoCPT} onClick={toggleHome} alt="Comida para todos" />
-                <input class="form-control" type="text" placeholder="Search" aria-label="Search"></input>
-                <img className="IconSearch"  src={Salir} alt="Search" />
+                <input className="form-control searchSpace " type="text" placeholder="Search" aria-label="Search"></input>
+                <img className="IconSearch"  src={IconSearch} alt="Search" />
 				<ul className="navLinks">
 					<Link to="/">
-                    <img className="IconSettings"  src={Salir} alt="Settings" />
+                    <img className="IconSettings"  src={IconSettings} alt="Settings" />
 					</Link>
 					<Link to="/">
-                    <img className="IconCampana"  src={Salir} alt="Aviso" />
+                    <img className="IconCampana"  src={IconCampana} alt="Aviso" />
 					</Link>
 					<Link to="/">
                     <img className="IconMensaje"  src={IconMensaje} alt="Mensaje" />
