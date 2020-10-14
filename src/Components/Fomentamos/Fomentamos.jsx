@@ -24,7 +24,7 @@ const Fomentamos = () => {
 
                             </ul>
                             <button className="btn-aprenderMas">
-                                Màs informaciòn
+                                Más información
                                 </button>
                         </div>
                         {/*colum 2*/}

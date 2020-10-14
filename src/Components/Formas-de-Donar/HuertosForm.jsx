@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import './HuertosForm.css';
 import { firebase } from '../../firebase';
 import { Form } from 'react-bootstrap';
-import swal from 'sweetalert';
 
 const db = firebase.firestore();
 
@@ -32,7 +31,7 @@ const HuertosForm = () => {
 				date: dateForm.toLocaleString()
 			})
 			.then(() => {
-				swal("Good job!", "You clicked the button!", "success");
+				alert('Enviado');
 				
 			})
 			.catch((error) => {

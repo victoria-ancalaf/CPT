@@ -65,6 +65,7 @@
 .btn-fdonar:hover {
 	color: #f9f9f9;
 	background: linear-gradient(180deg, #ff9029 0%, #f34b14 100%);
+	border: none;
 }
 
 /* Modal */

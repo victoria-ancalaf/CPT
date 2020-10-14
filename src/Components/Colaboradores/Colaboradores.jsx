@@ -53,7 +53,7 @@ const Colaboradores = () => {
                             nuestra red de colaboradores?
                             </p>
                         <button className="btn-aprender">
-                            Aprender màs
+                            Aprender más
                         </button>
                     </div>
 
