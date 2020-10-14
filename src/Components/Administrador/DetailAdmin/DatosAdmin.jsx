@@ -1,22 +1,25 @@
 import React from 'react'
 import './DatosAdmin.css'
+import imagenAdmin from '../../../img/imagenAdmin.jpg'
 
 const DatosAdmin = () => {
     return (
-        <div className="containerDatosAdmin mt-5 mb-2">
+        <div className="containerDatosAdmin">
        
         <div className="row">
             <div className="col-md-6">
-               <h1> datos del administrador </h1>
-               <ul className="list-group">
-                   <li>Nombre</li>
-                   <li>foto</li>
-                   
-               </ul>
+               <p className="nombreAdmin">Rafael Rincón</p>
+               <p className="cargoAdmin">Administrador</p>
+               <p className="mailAdmin">@rafa.rincon</p>
+
+             
             </div>
             <div className="col-md-6">
                 
-                <h1>Foto administrador</h1>
+            <img className="imagenAdmin"
+            src={imagenAdmin}
+            alt="FotoImagen"
+          />
             </div>
         </div>
         

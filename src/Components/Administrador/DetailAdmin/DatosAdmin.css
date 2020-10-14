@@ -1,11 +1,51 @@
-.containerDatosAdmin{
-    
-width: 500px;
-height: 200px;
-margin-top: 200px;
-    
-    
-    
+.containerDatosAdmin{ 
+    width: 500px;
+    height: 200px;
+    margin-top: 150px;
     background: #F9F9F9;
     border-radius: 20px;
+    display: inline-block;
+    margin-right: 50px;
+    
+}
+
+.nombreAdmin{
+    width: 150px;
+    height: 28px;
+    margin-left: 30px;
+    margin-top: 22px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #4F4F4F;
+}
+.cargoAdmin{
+    width: 127px;
+    margin-left: 30px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    color: #828282;
+}
+
+.mailAdmin{
+    width: 127px;                       
+    margin-left: 30px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #4F4F4F;
+}
+
+.imagenAdmin{
+    width: 111px;
+    left: 111px;
+    margin-top: 49px;
+    margin-left: 40px;
 }

@@ -63,7 +63,7 @@ const FormulariosDonaciones = () => {
         </Tab.Container>
 
         </div>      
-           <h1>© 2020 Comida Para Todos - Todos los derechos reservados</h1> 
+           <p className="msnFooter">© 2020 Comida Para Todos - Todos los derechos reservados</p> 
         </div>
     )
 }
