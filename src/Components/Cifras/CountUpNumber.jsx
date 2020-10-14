@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import CountUp from "react-countup";
 import VisibilitySensor from "react-visibility-sensor";
 
-
 const CountUpNumber = ({ count, ...rest }) => {
 
     const [viewPortEntered, setViewPortEntered] = useState(false);
@@ -20,7 +19,7 @@ const CountUpNumber = ({ count, ...rest }) => {
                 }}
                 delayedCall
               >
-                <h4 className={count} ref={countUpRef} />
+                <h1 className="count" ref={countUpRef} />
               </VisibilitySensor>
             );
           }}
