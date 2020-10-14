@@ -4,9 +4,11 @@ import iconNave from '../../img/iconNave.svg'
 import iconHuerta from '../../img/iconHuerta.svg'
 import iconFoco from '../../img/iconFoco.svg'
 import './SerColaborador.css';
+import { motion } from "framer-motion"
 
 
 const SerColaborador = () => {
+   
     return (
         <div className="containerSerColaborador pt-5">
             <div className="serColaborador px-lg-5 pt-5 pb-5 mb-5">
@@ -25,7 +27,7 @@ const SerColaborador = () => {
 
                 <div className="fomentos">
                 <ul className="list-unstyled">
-                            <img
+                            <motion.img whileHover={{scale: 1.5}}
                                 className="imgNave"
                                 src={iconNave} alt=""
                             />
@@ -42,7 +44,7 @@ const SerColaborador = () => {
                     </div>
 
                     <ul className="list-unstyled">
-                            <img
+                            <motion.img whileHover={{scale: 1.5}}
                                 className="imgHuerta"
                                 src={iconHuerta} alt=""
                             />
@@ -60,7 +62,7 @@ const SerColaborador = () => {
                         </ul>
                     </div>
                     <ul className="list-unstyled">
-                            <img
+                            <motion.img whileHover={{scale: 1.5}}
                                 className="imgFoco"
                                 src={iconFoco} alt=""
                             />
