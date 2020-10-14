@@ -42,4 +42,22 @@
 
 .contenedorFomentamos {
 	margin-top: 130px;
+	margin-left: 118px;
+}
+
+.tituloFomentamos {
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 48px;
+}
+
+.parrafoFomentamos {
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: #F2F2F2;
 }
