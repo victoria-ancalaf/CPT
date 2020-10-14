@@ -27,10 +27,17 @@
 
     margin-top: 100px;
 }
-
+/*
 .imgNutricion {
 
     margin-left: -48%;
+}
+*/
+
+.alimentacion {
+
+    margin-left: -6%;
+    text-align: center;
 }
 
 .imgBarras {
@@ -39,14 +46,29 @@
 
 }
 
+.barras {
+
+    margin-left: 20%;
+}
+
 .imgPlaneta {
 
-    margin-left: 120%;
+    margin-left: 75%;
+}
+
+.permaCultura {
+
+    margin-left: 65%;
 }
 
 .imgManoEstrellas {
 
-    margin-left: 185%;
+    margin-left: 150%;
+}
+
+.buenasPracticas{
+
+    margin-left: 160%;
 }
 
 .logosCapacidades {
@@ -57,9 +79,3 @@
     margin-top: 30%;
 }
 
-.titulosImagenes {
-
-    display: flex;
-    justify-content: space-around;
-    margin-left: 80%;
-}
