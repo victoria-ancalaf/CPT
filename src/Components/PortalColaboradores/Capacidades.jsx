@@ -34,10 +34,12 @@ const Capacidades = () => {
 
                                 </ul>
                                 <div className="alimentacion">
-                                {/*<ul className="list-unstyled">*/}
+
+                                    <ul className="list-unstyled">
                                     <h1>Alimentación<br />Saludable</h1>
-                                {/*</ul>*/}
-                            </div>
+                                    </ul>
+                                </div>
+
                             </div>
 
                             <div className="logoBarras">
@@ -48,6 +50,12 @@ const Capacidades = () => {
                                     />
 
                                 </ul>
+
+                                <div className="barras">
+                                    <ul className="list-unstyled">
+                                        <h1>Emprendimiento</h1>
+                                    </ul>
+                                </div>
                             </div>
 
                             <div className="logoPlaneta">
@@ -58,6 +66,12 @@ const Capacidades = () => {
                                     />
 
                                 </ul>
+
+                                <div className="permaCultura">
+                                    <ul className="list-unstyled">
+                                        <h1>Permacultura</h1>
+                                    </ul>
+                                </div>
                             </div>
 
                             <div className="logoManoEstrellas">
@@ -68,25 +82,14 @@ const Capacidades = () => {
                                     />
 
                                 </ul>
-                            </div>
 
-                        </div>
-                        <div className="titulosImagenes">
 
-                            <div className="barras">
-                                <ul className="list-unstyled">
-                                    <h1>Emprendimiento</h1>
-                                </ul>
-                            </div>
-                            <div className="permaCultura">
-                                <ul className="list-unstyled">
-                                    <h1>Permacultura</h1>
-                                </ul>
-                            </div>
-                            <div className="buenasPracticas">
-                                <ul className="list-unstyled">
-                                    <h1>Buenas Prácticas</h1>
-                                </ul>
+                                <div className="buenasPracticas">
+                                    <ul className="list-unstyled">
+                                        <h1>Buenas <br /> Prácticas</h1>
+                                    </ul>
+                                </div>
+
                             </div>
 
                         </div>
