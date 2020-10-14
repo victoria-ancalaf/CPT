@@ -1,5 +1,8 @@
 import React from 'react'
 import tomates from '../../img/tomates.jpg'
+import iconNave from '../../img/iconNave.svg'
+import iconHuerta from '../../img/iconHuerta.svg'
+import iconFoco from '../../img/iconFoco.svg'
 import './SerColaborador.css';
 
 
@@ -21,7 +24,15 @@ const SerColaborador = () => {
                 </div>
 
                 <div className="fomentos">
+                <ul className="list-unstyled">
+                            <img
+                                className="imgNave"
+                                src={iconNave} alt=""
+                            />
+
+                        </ul>
                     <div className="mensajeSerColaborador">
+
                         <h1><strong>Reactivacion de las PYMES</strong></h1>
                         <ul className="list-unstyled">
                             fomento y apoyo ala industria de restaurantes y <br />
@@ -30,7 +41,16 @@ const SerColaborador = () => {
                             </ul>
                     </div>
 
+                    <ul className="list-unstyled">
+                            <img
+                                className="imgHuerta"
+                                src={iconHuerta} alt=""
+                            />
+
+                        </ul>
+
                     <div className="mensajeSerColaborador">
+
                         <h1><strong>Alimentaciòn Saludable</strong></h1>
                         <ul className="list-unstyled">
                             Los platos se conciben a partir de altos estándares <br />
@@ -39,8 +59,15 @@ const SerColaborador = () => {
                                 gramos por ración.</strong>
                         </ul>
                     </div>
+                    <ul className="list-unstyled">
+                            <img
+                                className="imgFoco"
+                                src={iconFoco} alt=""
+                            />
 
+                        </ul>
                     <div className="mensajeSerColaborador">
+
                         <h1><strong>Eduaciòn</strong></h1>
                         <ul className="list-unstyled">
                             Cada restaurante apadrina un comedor social con <br />
