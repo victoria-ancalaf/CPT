@@ -83,7 +83,7 @@ const BancoAlimentos = () => {
 
 						<Form.Control
 							className="input-banco"
-							placeholder="E-mail"
+							placeholder="Correo Electrónico"
 							value={email}
 							onChange={(e) => setEmail(e.target.value)}
 							required

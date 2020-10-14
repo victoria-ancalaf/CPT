@@ -5,10 +5,12 @@
     background-repeat: no-repeat;
     background-position: right;
     display: flex;
-    align-items: center;
-    padding-left: 178px;
+    flex-direction: column;
+    padding-left: 117px;
     padding-top: 327px;
+    justify-content: space-around;
 }
+
 
 .transparencia-main {
     width: 683px;
@@ -16,4 +18,17 @@
     font-family: 'Roboto', sans-serif;
     font-size: 48px;
     color: #FFFFFF;
+    line-height: 56px;
+}
+
+.titulo-header {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color:#F9F9F9;
+}
+
+.arrow-header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: -9%;
 }

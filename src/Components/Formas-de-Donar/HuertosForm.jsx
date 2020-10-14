@@ -74,7 +74,7 @@ const HuertosForm = () => {
 
 						<Form.Control
 							className="input-huertos"
-							placeholder="E-mail"
+							placeholder="Correo Electrónico"
 							value={email}
 							onChange={(e) => setEmail(e.target.value)}
 							required

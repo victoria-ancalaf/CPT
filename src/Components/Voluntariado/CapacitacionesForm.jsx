@@ -81,7 +81,7 @@ const CapacitacionesForm = () => {
 
                 <Form.Control
                     className="input-capacitaciones"
-                    placeholder="E-mail"
+                    placeholder="Correo Electrónico"
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     required

@@ -79,7 +79,7 @@ const VoluntarioForm = () => {
 
                 <Form.Control
                     className="input-voluntario"
-                    placeholder="E-mail"
+                    placeholder="Correo Electrónico"
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     required
