@@ -34,7 +34,7 @@ const Footer = () => {
                             </div>
 
                             <li><input className="nombre" placeholder="Nombre Completo"></input></li>
-                            <li><input className="mail" placeholder="Email"></input></li>
+                            <li><input className="mail" placeholder="Correo Electronico"></input></li>
                             <li><textarea className="elmensaje" placeholder="Mensaje"></textarea></li>
 
                         </ul>

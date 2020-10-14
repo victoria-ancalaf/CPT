@@ -40,7 +40,7 @@ const Sumate = () => {
                             <div className="contenedorEmail">
                                 <ul className="list-unstyled">
                                     <ul className="list-unstyled">
-                                        <li><input className="mailSumate" placeholder="Email"></input></li>
+                                        <li><input className="mailSumate" placeholder="Correo Electronico"></input></li>
                                     </ul>
                                 </ul>
                             </div>

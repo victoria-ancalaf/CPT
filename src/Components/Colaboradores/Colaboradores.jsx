@@ -84,7 +84,7 @@ const Colaboradores = () => {
                 <img src={nossoPrato} alt="" width="110px" height="110px" />
                 <img src={pebre} alt="" width="110px" height="110px" />
             </div>
-            <div className="losColaboradores">
+            <div className="losColaboradoresDos">
 
                 <img src={rossoNero} alt="" width="110px" height="110px" />
                 <img src={puertoClaro} alt="" width="110px" height="110px" />

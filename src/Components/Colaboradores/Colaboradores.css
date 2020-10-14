@@ -43,3 +43,17 @@
    justify-content: center;
    margin-top: 30px;
 }
+
+.losColaboradoresDos {
+    
+    display: flex;
+    margin-left: 11%;
+    margin-top: 30px;
+}
+
+.btn-aprender:hover {
+    cursor: pointer;
+    background: linear-gradient(180deg, #FF9029 0%, #F34B14 100%);
+    color: #F9F9F9;
+    border: none;
+}
