@@ -9,7 +9,7 @@ const PortalColaboradores = () => {
         <div className="portalColaboradores">
             <div className="colaboradores">
                     <p className="p-1-style">
-                        Ùnete a
+                        Únete a
                     <br />
                         <strong> nuestra alianza</strong>
                     </p>

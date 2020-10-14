@@ -35,7 +35,7 @@ const Capacidades = () => {
                                 </ul>
                                 <div className="alimentacion">
                                 {/*<ul className="list-unstyled">*/}
-                                    <h1>Alimentaciòn<br />Saludable</h1>
+                                    <h1>Alimentación<br />Saludable</h1>
                                 {/*</ul>*/}
                             </div>
                             </div>
@@ -85,7 +85,7 @@ const Capacidades = () => {
                             </div>
                             <div className="buenasPracticas">
                                 <ul className="list-unstyled">
-                                    <h1>Buenas Pràcticas</h1>
+                                    <h1>Buenas Prácticas</h1>
                                 </ul>
                             </div>
 

@@ -25,7 +25,7 @@ const Sumate = () => {
                     <div className="contactoSumate">
                         <ul className="list-unstyled">
                             <div className="tituloSumate">
-                                <h1> Sùmate <strong> al equipo</strong></h1>
+                                <h1> Súmate <strong> al equipo</strong></h1>
                                 <p className="parrafoSumate">
                                     Si tienes un emprendimiento del rubro gastronómico y quieres <br />
                                 aportar desde tu vereda, esta es tu oportunidad. <strong>Escribamos <br />
@@ -46,19 +46,19 @@ const Sumate = () => {
                             </div>
                             <div className="contenedorTlf">
                                 <ul className="list-unstyled">
-                                    <li><input className="tlf" placeholder="Tèlefono"></input></li>
+                                    <li><input className="tlf" placeholder="Teléfono"></input></li>
                                 </ul>
                             </div>
                             <li><input className="comuna" placeholder="Comuna"></input></li>
 
                             <div className="contenedorRegion">
                                 <ul className="list-unstyled">
-                                    <li><input className="region" placeholder="Regiòn"></input></li>
+                                    <li><input className="region" placeholder="Región"></input></li>
                                 </ul>
                             </div>
                             <li><input className="emprendimiento" placeholder="Nombre de tu Emprendimiento"></input></li>
-                            <li><input className="info" placeholder="¿Còmo te enteraste de nosotros?"></input></li>
-                            <li><input className="horario" placeholder="Comèntanos tu disponibilidad horaria para contactarte"></input></li>
+                            <li><input className="info" placeholder="¿Cómo te enteraste de nosotros?"></input></li>
+                            <li><input className="horario" placeholder="Coméntanos tu disponibilidad horaria para contactarte"></input></li>
                             <li><textarea className="elmensaje" placeholder="Mensaje"></textarea></li>
 
                             <div className="enviar">

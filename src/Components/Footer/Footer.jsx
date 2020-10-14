@@ -30,7 +30,7 @@ const Footer = () => {
                     <div className="contacto">
                         <ul className="list-unstyled">
                             <div className="titulo">
-                                <h1> Escribenos, <strong> te leemos</strong></h1>
+                                <h1> Escríbenos, <strong> te leemos</strong></h1>
                             </div>
 
                             <li><input className="nombre" placeholder="Nombre Completo"></input></li>
@@ -87,10 +87,10 @@ const Footer = () => {
                                     <li className="liname">La Caperucita y El Lobo</li>
                                     <li className="liname">Pebre Chile</li>
                                     <li className="liname">Ambrosia Bistro</li>
-                                    <li className="liname">Cafè San Juan</li>
+                                    <li className="liname">Café San Juan</li>
                                     <li className="liname">Puerto Claro Valpo</li>
                                     <li className="liname">Taller Macera</li>
-                                    <li className="liname">Comedor Comùn</li>
+                                    <li className="liname">Comedor Común</li>
                                 </ul>
                             </div>
                         </div>
@@ -105,7 +105,7 @@ const Footer = () => {
                             </div>
                             <div className="contenedorComunicacion">
                                 {/*colum 3*/}
-                                <h4>Red de Comunicaciòn</h4>
+                                <h4>Red de Comunicación</h4>
                                 <ul className="list-unstyled">
                                     <li className="liname">Ñam</li>
                                     <li className="liname">Agencia Land</li>

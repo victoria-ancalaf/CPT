@@ -9,7 +9,7 @@ const SerColaborador = () => {
             <div className="serColaborador px-lg-5 pt-5 pb-5 mb-5">
                 <div className="row">
                     <div className="tituloColaborador col-md-6 col-sm-6 pt-5">
-                        <h1> Què es <strong>Ser Colaborador</strong></h1>
+                        <h1> Qué es <strong>Ser Colaborador</strong></h1>
                         <div className="msjSerColaborador">
                             <ul className="list-unstyled">
                                 Los colaboradores son restaurantes que aportan con la <strong>elaboración <br />
@@ -31,7 +31,7 @@ const SerColaborador = () => {
                     </div>
 
                     <div className="mensajeSerColaborador">
-                        <h1><strong>Alimentaciòn Saludable</strong></h1>
+                        <h1><strong>Alimentación Saludable</strong></h1>
                         <ul className="list-unstyled">
                             Los platos se conciben a partir de altos estándares <br />
                             de calidad, nutritivos y saludables cocinados por <br />
@@ -41,7 +41,7 @@ const SerColaborador = () => {
                     </div>
 
                     <div className="mensajeSerColaborador">
-                        <h1><strong>Eduaciòn</strong></h1>
+                        <h1><strong>Eduación</strong></h1>
                         <ul className="list-unstyled">
                             Cada restaurante apadrina un comedor social con <br />
                             el compromiso de en el corto plazo, debido a la <br />
