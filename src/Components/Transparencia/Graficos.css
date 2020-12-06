@@ -1,0 +1,31 @@
+.graficos-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #F9F9F9;
+}
+
+.chart-text-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 117px;
+    padding-bottom: 2%;
+}
+
+.chart-text {
+    font-family: 'Roboto', sans-serif;
+    color: #333333;
+    font-size: 48px;
+}
+
+.chart-paragraph {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #4F4F4F;
+}
+
+.chart {
+    padding-left: 117px;
+}

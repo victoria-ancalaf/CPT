@@ -1,0 +1,51 @@
+.voluntariado-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 12%;
+}
+
+.formar-donar-text {
+    display: flex;
+    flex-direction: column;
+    padding: 0 118px;
+    margin-top: 5.5%;
+}
+
+.fdonar-p-1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 48px;
+    color: #4F4F4F;
+}
+
+.fdonar-p-2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    color: #4F4F4F;
+}
+
+.btn-formas-donar {
+    width: 243px;
+    height: 58px;
+    background-color: transparent;
+    border: 2px solid #FA6E20;
+    border-radius: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #FA6E20;
+}
+
+.btn-formas-donar:hover {
+    cursor: pointer;
+    background: linear-gradient(180deg, #FF9029 0%, #F34B14 100%);
+    color: #F9F9F9;
+    border: none;
+}
+
+.fdonar-card-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 118px;
+    margin-top: 5%;
+}

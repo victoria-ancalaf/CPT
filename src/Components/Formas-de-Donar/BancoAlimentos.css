@@ -1,0 +1,123 @@
+.fdonar-container {
+	display: flex;
+	width: 577px;
+	height: 300px;
+	border-radius: 20px;
+	background: #f9f9f9;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.fdonar-left {
+	width: 50%;
+}
+
+.fdonar-left > img {
+	width: 100%;
+	height: 100%;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+.fdonar-right {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+
+.fdonar-letter {
+	font-family: "Roboto", sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+	color: #333333;
+}
+
+.fdonar-letter-small {
+	font-family: "Roboto", sans-serif;
+	font-size: 18px;
+	color: #333333;
+	line-height: 21px;
+}
+
+.fdonar-more {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #FA6E20;
+	text-decoration: underline;
+	margin-top: -5%;
+}
+
+.btn-fdonar {
+	width: 167px;
+	height: 58px;
+	border-radius: 10px;
+	border: 2px solid #fa6e20;
+	background-color: transparent;
+	font-family: "Roboto", sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+	color: #fa6e20;
+}
+
+.btn-fdonar:hover {
+	color: #f9f9f9;
+	background: linear-gradient(180deg, #ff9029 0%, #f34b14 100%);
+	border: none;
+}
+
+/* Modal */
+
+.modal-header-banco {
+	height: 90px;
+	background-image: url("../../img/alimentos-header.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-bottom: none;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+}
+
+.modal-lg {
+	max-width: 1205px;
+}
+
+.modal-content {
+	border-radius: 30px;
+	border: none;
+}
+
+.modal-body {
+	display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+	height: 643px;
+	padding-left: 0;
+    padding-right: 0;
+}
+
+.modal-footer-banco {
+	height: 91px;
+	background-image: url("../../img/alimentos-footer.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-top: none;
+	border-bottom-right-radius: 30px;
+	border-bottom-left-radius: 30px;
+}
+
+.banco-p1 {
+	font-family: "Roboto", sans-serif;
+	font-size: 36px;
+	color: #4f4f4f;
+	padding: 0 117px;
+}
+
+.banco-p2 {
+	font-family: "Roboto", sans-serif;
+	font-size: 18px;
+	color: #4f4f4f;
+	padding: 0 117px;
+}

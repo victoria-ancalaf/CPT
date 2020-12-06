@@ -1,0 +1,70 @@
+.containerFomentamos {
+    width: 100%;
+    height: 100vh;
+	background: #4f4f4f;
+}
+
+.fomentamos {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 48px;
+	line-height: 56px;
+	display: flex;
+	align-items: center;
+	color: #f2f2f2;
+
+	width: 648px;
+	height: 56.27px;
+}
+
+.btn-aprenderMas {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 28px;
+
+	width: 243px;
+	height: 58px;
+	left: 118px;
+	border-radius: 10px;
+	color: #F9F9F9;
+	background: transparent;
+	border: 4px solid #F9F9F9;
+    box-sizing: border-box;
+   
+}
+
+.liname {
+	color: #f2f2f2;
+}
+
+.contenedorFomentamos {
+	margin-top: 130px;
+	margin-left: 118px;
+}
+
+.tituloFomentamos {
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 48px;
+}
+
+.parrafoFomentamos {
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: #F2F2F2;
+}
+
+.btn-aprenderMas:hover {
+
+	background: #f9f9f9;
+    border: 4px solid #f9f9f9;
+    color: #4f4f4f;
+}

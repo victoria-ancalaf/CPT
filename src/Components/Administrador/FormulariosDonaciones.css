@@ -1,0 +1,76 @@
+.containerAdmin{
+    padding: 0 118px;
+    width: 100%;
+    height: 100vh;
+    margin-top: 0px;
+    background-image: url("../../img/Verduras.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: teal;
+}
+
+.formAdmin{
+    width: 1206px;
+    height: 975px;
+    left: 117px;
+    top: 408px;
+    background: #F9F9F9;
+    opacity: 0.9;
+    border-radius: 20px;
+}
+
+.containerTabs{
+    width: 1206px;
+    height: 975px;
+
+}
+
+.tabcontenido{
+    height: 975px;
+    left: 117px;
+    top: 408px; 
+    margin-top: 200px;
+    background: #F9F9F9;
+    opacity: 0.9;
+    border-radius: 20px;
+
+}
+
+.btnContenido{
+    width: 317px;
+    height: 975px;
+    margin-top: 20px;
+    margin-left: 41px;
+    opacity: 0.9;
+    border-radius: 20px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    display: flex;
+    background: #F9F9F9;
+    color: #4F4F4F;
+
+}
+
+.btnTab{
+    width: 225px;
+    height: 975px;
+    margin-top: 20px;
+    margin-left: 20px;
+   
+    
+}
+
+.msnFooter{
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 21px;
+    padding-left: 476px;
+    margin-top: 40px;
+    height: 21px;
+    color: #F9F9F9;
+}

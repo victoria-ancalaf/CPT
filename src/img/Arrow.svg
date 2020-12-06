@@ -1,0 +1,8 @@
+<svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Arrow Activo">
+<circle id="Ellipse 21" cx="28" cy="28" r="26.5" transform="rotate(90 28 28)" stroke="#F9F9F9" stroke-width="3"/>
+<line id="Line 7" x1="28" y1="11.3223" x2="28" y2="43.6777" stroke="#F9F9F9" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line id="Line 8" x1="39" y1="33.1213" x2="28.1213" y2="44" stroke="#F9F9F9" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line id="Line 9" x1="1.5" y1="-1.5" x2="16.8848" y2="-1.5" transform="matrix(0.707107 0.707107 0.707107 -0.707107 17 31)" stroke="#F9F9F9" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>
