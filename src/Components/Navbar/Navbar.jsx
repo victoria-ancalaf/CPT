@@ -2,7 +2,7 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Navbar.css";
 import LogoCPT from "../../img/Logo_comidaparatodos_blanco.png";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -15,10 +15,12 @@ const Navbar = () => {
           <li className="list-navbar">Nosotros</li>
 
           <li className="list-navbar">Cómo Ayudar</li>
-
-          <li className="list-navbar">Transparencia</li>
-
+          <Link to="/Transparencia">
+            <li className="list-navbar">Transparencia</li>
+          </Link>
+          <Link to="/PortalColaboradores">
           <li className="list-navbar">Colaboradores</li>
+          </Link>
         </ul>
         <button className="btn-nav-donar">Donar</button>
       </div>

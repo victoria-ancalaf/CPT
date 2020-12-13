@@ -17,7 +17,7 @@
 .chart-text {
     font-family: 'Roboto', sans-serif;
     color: #333333;
-    font-size: 48px;
+    font-size: 46px;
 }
 
 .chart-paragraph {
@@ -27,5 +27,9 @@
 }
 
 .chart {
-    padding-left: 117px;
+    padding-left: 200px;
+}
+
+.chart > img{
+    width: 700px;
 }

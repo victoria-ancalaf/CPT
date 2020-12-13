@@ -3,7 +3,7 @@
     height: 100vh;
     background: url(../../img/Olla.jpg);
     background-repeat: no-repeat;
-    background-position: right;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     padding-left: 117px;

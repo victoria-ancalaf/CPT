@@ -1,135 +1,116 @@
-.containerSumate{
-
-    width: 100%;
-    height: 100vh;
-
+.containerSumate {
+  width: 100%;
+  height: 100vh;
 }
 
-
 .msjSumate {
-
-    width: 884px;
-    /*height: 147px;*/
-    color: #4F4F4F;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 23px;
-    margin-top: 50px;
+  width: 884px;
+  color: #4f4f4f;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  margin-top: 50px;
 }
 
 .tituloSumate {
-
-    margin-left: 5px;
-    color: #333333;
+  margin-left: 5px;
+  color: #333333;
 }
 
 .imgMasas {
-
-    width: 507px;
-    height: 723px;
-    margin-left: 70px;
-    margin-top: 80px;
-    border-radius: 100px;
+  width: 407px;
+  height: 600px;
+  margin-left: 118px;
+  margin-top: 20px;
+  border-radius: 100px;
 }
 
 .contactoSumate {
-
-    margin-top: 30px;
-    margin-right: 100px;
-    margin-top: 50px;
+  margin-right: 100px;
 }
 
 .parrafoSumate {
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    color: #4F4F4F;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  color: #4f4f4f;
 }
 
-.nombre, .emprendimiento, .info, .horario {
-
-    width: 594px;
-    height: 51px;
-    margin-top: 10px;
-    border: 2px solid #BDBDBD;
-    border-radius: 10px;
+.nombre,
+.emprendimiento,
+.info,
+.horario {
+  width: 594px;
+  height: 50px;
+  margin-top: 10px;
+  border: 2px solid #bdbdbd;
+  border-radius: 10px;
 }
 
- .comuna {
-
-    width: 290px;
-    height: 51px;
-    margin-top: 10px;
-    border: 2px solid #BDBDBD;
-    border-radius: 10px;
+.comunacolab {
+  width: 290px;
+  height: 50px;
+  margin-top: 10px;
+  border: 2px solid #bdbdbd;
+  border-radius: 10px;
 }
 
 .contenedorTlf {
-
-    margin-left: 60px;
-    margin-top: -140px;
-    
+  margin-left: 60px;
+  margin-top: -140px;
 }
 .contenedorRegion {
-
-    margin-left: 60px;
-    margin-top: -140px;
+  margin-left: 60px;
+  margin-top: -140px;
 }
 
 .tlf {
-
-    margin-top: 89px;
-    margin-left: 237px;
-    width: 297px;
-    height: 51px;
-    border: 2px solid #BDBDBD;
-    border-radius: 10px;
+  margin-top: 89px;
+  margin-left: 237px;
+  width: 297px;
+  height: 50px;
+  border: 2px solid #bdbdbd;
+  border-radius: 10px;
 }
 
 .region {
-
-    margin-top: 89px;
-    margin-left: 237px;
-    width: 297px;
-    height: 51px;
-    border: 2px solid #BDBDBD;
-    border-radius: 10px;
-   
+  margin-top: 89px;
+  margin-left: 237px;
+  width: 297px;
+  height: 50px;
+  border: 2px solid #bdbdbd;
+  border-radius: 10px;
 }
 
-.mailSumate {
-
-    width: 290px;
-    height: 51px;
-    margin-top: 10px;
-    border: 2px solid #BDBDBD;
-    border-radius: 10px;
+.mailSumatecolab {
+  width: 290px;
+  height: 50px;
+  margin-top: 10px;
+  border: 2px solid #bdbdbd;
+  border-radius: 10px;
 }
 
 .btn-sumate {
-
-    width: 145px;
-    height: 55px;
-    color: #FA6E20;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 28px;
-    border: 2px solid #FA6E20;
-    box-sizing: border-box;
-    border-radius: 10px;
-    margin-top: 20px;
+  width: 145px;
+  height: 55px;
+  color: #fa6e20;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  border: 2px solid #fa6e20;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin-top: 20px;
 }
 
 .btn-sumate:hover {
-
-    cursor: pointer;
-    background: linear-gradient(180deg, #FF9029 0%, #F34B14 100%);
-    color: #F9F9F9;
-    border: none;
+  cursor: pointer;
+  background: linear-gradient(180deg, #ff9029 0%, #f34b14 100%);
+  color: #f9f9f9;
+  border: none;
 }

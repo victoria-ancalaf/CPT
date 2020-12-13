@@ -1,81 +1,73 @@
 .containerCapacidades {
-
-    width: 100%;
-    height: 100vh;
-    background-image: url("../../img/manzanas.jpg");
-
+  width: 100%;
+  height: 100vh;
+  background-image: url("../../img/manzanas.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .msjCapacidades {
-
-    width: 884px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 23px;
-    margin-top: 50px;
+  width: 884px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
 }
 
 .tituloCapacidades {
-
-    margin-left: 30px;
-    color: #F9F9F9;
+  margin-left: 30px;
+  color: #f9f9f9;
 }
 
 .capacidades {
-
-    margin-top: 100px;
+  margin-top: 100px;
 }
-/*
-.imgNutricion {
-
-    margin-left: -48%;
-}
-*/
 
 .alimentacion {
-
-    margin-left: -6%;
-    text-align: center;
+  margin-left: -6%;
+  text-align: center;
 }
 
 .imgBarras {
-
-    margin-left: 40%;
-
+  margin-left: 40%;
 }
 
 .barras {
-
-    margin-left: 20%;
+  margin-left: 20%;
 }
 
 .imgPlaneta {
-
-    margin-left: 75%;
+  margin-left: 75%;
 }
 
 .permaCultura {
-
-    margin-left: 65%;
+  margin-left: 87%;
 }
 
 .imgManoEstrellas {
-
-    margin-left: 150%;
+  margin-left: 150%;
 }
 
-.buenasPracticas{
-
-    margin-left: 160%;
+.buenasPracticas {
+  margin-left: 160%;
 }
 
 .logosCapacidades {
-
-    display: flex;
-    justify-content: space-around;
-    margin-left: 60%;
-    margin-top: 30%;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 60%;
+  margin-top: 10%;
 }
 
+.logosCapacidades > img {
+  width: 250px;
+}
+
+.h1-capaci {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  color: #f9f9f9;
+  text-align: center;
+}

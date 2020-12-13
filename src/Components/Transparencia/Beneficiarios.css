@@ -14,13 +14,13 @@
 
 .bene-title{
     font-family: 'Roboto', sans-serif;
-    font-size: 48px;
+    font-size: 46px;
     color: #333333;
 }
 
 .bene-paragraph {
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     color: #4F4F4F;
 }
 
@@ -34,8 +34,8 @@
 
 .beneficiarios-card {
     display: flex;
-    width: 574px;
-    height: 231px;
+    width: 544px;
+    height: 201px;
     background: #F2F2F2;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
@@ -46,7 +46,7 @@
 .bene-card-left-text {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
-    font-size: 36px;
+    font-size: 33px;
     color: #F9F9F9;
     margin-top: 27px;
     margin-left: 32px;
@@ -58,13 +58,13 @@
     justify-content: space-around;
     width: 50%;
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     color: #4F4F4F;
 }
 
 .right-card-text {
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     color: #4F4F4F;
     margin-left: 24px;
 }
