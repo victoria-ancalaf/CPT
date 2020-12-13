@@ -1,74 +1,43 @@
-.carouselMensaje{
-    
-
-    
-    font-style: normal;
-    font-weight: normal;
-   
-    line-height: 56px;
-    display: flex;
-    align-items: center;
-    text-align: left;
-    color: #FFFFFF;
-
-    position: absolute;
-
-
-
-
-
-font-family: 'Roboto', sans-serif;
-	font-size: 2.5em;
-left:  118px;
-
-    top: 600px;
-   
-width: 600px;
-
-left: 118px;
-margin-bottom: 182px;
-
-
-
-
-
-
-
+.carouselMensaje {
+  font-style: normal;
+  font-weight: normal;
+  line-height: 56px;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  color: #ffffff;
+  position: absolute;
+  font-family: "Roboto", sans-serif;
+  font-size: 2.5em;
+  left: 118px;
+  width: 600px;
 }
 
 .btn-ttc,
 .btn-ttc:hover,
 .btn-ttc:active {
-    width: 338px;
-    height: 58px;
-    left: 118px;
-    top: 775px;
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 20px;
-    
-    color:  #F9F9F9;
-
-    border: 4px solid #F9F9F9;
-    box-sizing: border-box;
-    border-radius: 10px;
-  
+  width: 338px;
+  height: 58px;
+  left: 118px;
+  top: 775px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 20px;
+  color: #f9f9f9;
+  border: 4px solid #f9f9f9;
+  box-sizing: border-box;
+  border-radius: 10px;
 }
 
-.imagenCarrusel{
-    width: 100%;
-    height: 100vh;
-    
+.imagenCarrusel {
+  width: 100%;
+  height: 100vh;
 }
 
-
-.imagenCarrusel2{
-  
-    transform: matrix(-1, 0, 0, 1, 0, 0);
-    width: 100%;
-    height: 100vh;
-    
+.imagenheader2 {
+  width: 100%;
+  height: 100vh;
 }
+

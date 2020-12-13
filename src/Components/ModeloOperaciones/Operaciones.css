@@ -1,92 +1,79 @@
-.operaciones{
-    width: 100%;
-    height: 100vh; 
-    background-color:  #F2F2F2;
-    display: flex;
-	flex-direction: column;
-    justify-content: space-around;
-
+.operaciones {
+  width: 100%;
+  height: 100vh;
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
-.mensaje{
-    width: 1100px;
-    /*height: 147px;*/
-    padding: 0 118px;
-  
+.mensaje {
+  width: 1100px;
+  padding: 0 118px;
 }
 
 .parrafo1 {
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    color: #333333;
-    font-size: 48px;
-    margin-top: 15%;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: #333333;
+  font-size: 48px;
+  margin-top: 15%;
 }
 
 .parrafo2 {
-    font-family: "Roboto", sans-serif;
-    color: #4F4F4F;
-    font-size: 20px;
-    line-height: 23px;
+  font-family: "Roboto", sans-serif;
+  color: #4f4f4f;
+  font-size: 20px;
+  line-height: 23px;
 }
 
-.CarruselOperaciones{
-    
-    height: 450px;
-    margin-left: 50px;
-    margin-top: 80px;
-  
-   
+.CarruselOperaciones {
+  height: 450px;
+  margin-left: 118px;
+  margin-top: 35px;
 }
 
-.tarjetasModelo{
-    width: 355px;
-    height: 395px;
-    right: 0.28%;
-    right: 0.28%;
-  
-    padding-top: 49.19px;
-    padding-left: 86px;
-    background: #FFFFFF;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
-    border-radius: 20px;
-    color: #4F4F4F;
-  
+.tarjetasModelo {
+  width: 335px;
+  height: 345px;
+  right: 0.28%;
+  right: 0.28%;
+
+  padding-top: 49.19px;
+  padding-left: 86px;
+  background: #ffffff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  color: #4f4f4f;
 }
 
-.ImagenOperaciones{
-    width: 200px;
-    /*height: 200px;*/
-    margin-left: -50px;
-    padding-left: 60px;
-    
-
+.ImagenOperaciones {
+  width: 200px;
+  margin-left: -50px;
+  padding-left: 60px;
 }
 
-
-
-.mensajeDonaciones{
-    margin-left: -60px;
-    width: 300px;
-    
+.mensajeDonaciones {
+  margin-left: -60px;
+  width: 300px;
 }
 
-.parraftitulo{
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 28px;
-    align-items: center;
-    color: #333333;
+.parraftitulo {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  align-items: center;
+  color: #333333;
 }
 
-.parrafConte{
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 21px;
-    color: #4F4F4F;
+.parrafConte {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #4f4f4f;
 }
